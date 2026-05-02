@@ -21,13 +21,11 @@ const Header = () => {
         {/* Logo Placeholder */}
         <div className="flex items-center space-x-2 md:space-x-3">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border-2 border-gray-500 flex items-center justify-center relative overflow-hidden">
-            {/* Simulating the logo styling */}
-            <div className="absolute inset-0 bg-[#1a1a1a] opacity-80" />
-            <span className="relative text-[8px] md:text-[10px] uppercase text-center leading-tight tracking-widest text-[#a38a58]  ">
-              Vedanta
-              <br />
-              Legal
-            </span>
+            <img
+              src="/favicon.svg"
+              alt="Vedanta Legal Logo"
+              className="w-full h-full object-cover"
+            />
           </div>
           <h1 className="text-xl md:text-2xl font-bold tracking-wider  ">
             VEDANTA

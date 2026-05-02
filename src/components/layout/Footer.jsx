@@ -22,9 +22,9 @@ export default function Footer() {
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden shrink-0">
                 {/* Coin placeholder mimicking mockup */}
                 <img
-                  src="https://images.unsplash.com/photo-1621360841013-c76831f1fb76?w=100&q=80"
-                  alt="Logo Coin"
-                  className="w-full h-full object-cover filter grayscale contrast-125 brightness-110"
+                  src="/favicon.svg"
+                  alt="Vedanta Legal Logo"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <h2 className="text-white text-[20px] md:text-[22px]   font-bold tracking-wide">
@@ -240,7 +240,13 @@ export default function Footer() {
             <p>
               Built With Love By{" "}
               <span className="font-bold text-white tracking-wide ml-1">
-                Createdge
+                <a
+                  href="https://crtedge.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Createdge
+                </a>
               </span>
             </p>
             <Heart size={13} className="text-[#ff4b4b] fill-[#ff4b4b] ml-0.5" />
