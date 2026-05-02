@@ -1,22 +1,25 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import FounderPhoto from "../../assets/FounderPhoto.png";
+import FounderPhoto2 from "../../assets/FounderPhoto2.png";
+import FounderPhoto3 from "../../assets/FounderPhoto3.png";
 
 const foundersData = [
   {
     name: "B.S. Sarkar",
     role: "Founder",
-    imageSrc: "https://via.placeholder.com/400x500?text=B.S.+Sarkar", // Replace with actual image path
+    imageSrc: FounderPhoto,
     isTop: true,
   },
   {
     name: "D.C. Roy",
     role: "Founder",
-    imageSrc: "https://via.placeholder.com/400x500?text=D.C.+Roy", // Replace with actual image path
+    imageSrc: FounderPhoto2,
   },
   {
     name: "J.U. Khadim",
     role: "Founder",
-    imageSrc: "https://via.placeholder.com/400x500?text=J.U.+Khadim", // Replace with actual image path
+    imageSrc: FounderPhoto3,
   },
 ];
 

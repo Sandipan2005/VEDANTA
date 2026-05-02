@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import CoFounderPhoto from "../../assets/CoFounder.png";
 
 const SocialIcon = ({ children, href = "#" }) => (
   <a
@@ -30,7 +31,7 @@ export default function CoFounderSection() {
         {/* Image Container */}
         <div className="w-full h-100 aspect-4/5 bg-gray-100 overflow-hidden">
           <img
-            src="https://via.placeholder.com/420x525?text=Kuntal+Ghosh" // Replace with actual image
+            src={CoFounderPhoto}
             alt="Kuntal Ghosh"
             className="w-full h-full object-cover object-top"
           />

@@ -1,23 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Header from "../../components/layout/Header";
+import HeroBG from "../../assets/HeroHomeBG.png";
+import HeroImg from "../../assets/HomeAbout2.png";
 
 const PracticeAreasHero = () => {
   return (
-    <div className="relative min-h-[60vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden bg-black">
+    <div className="relative min-h-[60vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden ">
       {/* Dynamic Background Pattern - Diagonal Lines */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none flex items-center justify-center">
         <div
-          className="w-[200%] h-[200%] md:w-[150%] md:h-[150%] opacity-20"
+          className="w-[200%] h-[200%] md:w-full md:h-full opacity-100"
           style={{
-            backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.4) 1px, transparent 1px)`,
-            backgroundSize: "60px 60px",
-            transform: "rotate(45deg)",
-            transformOrigin: "center center",
+            backgroundImage: `url(${HeroBG})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         />
         {/* Soft radial gradient mask over the lines to fade them at edges */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" />
+        {/* <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" /> */}
       </div>
 
       <Header />
@@ -32,16 +33,16 @@ const PracticeAreasHero = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2624&auto=format&fit=crop')`,
+                backgroundImage: `url(${HeroImg})`,
               }}
             />
             {/* Dark Overlay over the inner image */}
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/60" />
 
             {/* Text Overlay Content */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl   text-white tracking-widest mb-6 lg:mb-10 leading-[1.2] max-w-4xl mx-auto drop-shadow-lg uppercase">
-                MEET OUR BRILLIANT 
+                MEET OUR BRILLIANT
                 <br className="hidden md:block" /> GROUP OF LAWYERS
               </h2>
               {/* Golden line separator */}

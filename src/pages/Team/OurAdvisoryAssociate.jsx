@@ -1,5 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import FounderPhoto from "../../assets/FounderPhoto.png";
+import FounderPhoto2 from "../../assets/FounderPhoto2.png";
+import FounderPhoto3 from "../../assets/FounderPhoto3.png";
 
 // --- Shared Data ---
 // You can split these into separate arrays if the people differ between sections
@@ -7,17 +10,17 @@ const teamData = [
   {
     name: "Srijita Sarkar",
     role: "Founder",
-    imageSrc: "https://via.placeholder.com/400x400?text=Srijita+Sarkar", // Replace with actual image
+    imageSrc: FounderPhoto, // Replace with actual image
   },
   {
     name: "Ritwika Sinha",
     role: "Founder",
-    imageSrc: "https://via.placeholder.com/400x400?text=Ritwika+Sinha", // Replace with actual image
+    imageSrc: FounderPhoto2, // Replace with actual image
   },
   {
     name: "Siddhartha Singh",
     role: "Founder",
-    imageSrc: "https://via.placeholder.com/400x400?text=Siddhartha+Singh", // Replace with actual image
+    imageSrc: FounderPhoto3, // Replace with actual image
   },
 ];
 
