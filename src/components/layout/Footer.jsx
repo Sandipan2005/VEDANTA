@@ -89,7 +89,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/practice-area"
+                  href="/practice-areas"
                   className="hover:text-white transition-colors"
                 >
                   Practice Area

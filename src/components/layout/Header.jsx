@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 md:py-6 text-white bg-transparent">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 md:py-2 text-white bg-black backdrop-blur-md border-b border-[#c4a661]/20">
       <div className="flex items-center justify-between">
         {/* Logo Placeholder */}
         <div className="flex items-center space-x-2 md:space-x-3">
@@ -40,6 +40,11 @@ const Header = () => {
             <Link
               key={link.path}
               to={link.path}
+              onClick={() => {
+                if (path !== link.path) {
+                  window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+                }
+              }}
               className={`transition-colors duration-300 hover:text-[#c4a661] whitespace-nowrap ${
                 path === link.path
                   ? "bg-[#2a2415] text-white px-4 py-2 border-b-2 border-[#c4a661]"
@@ -68,7 +73,12 @@ const Header = () => {
             <Link
               key={link.path}
               to={link.path}
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={() => {
+                if (path !== link.path) {
+                  window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+                }
+                setIsMobileMenuOpen(false);
+              }}
               className={`text-base font-medium py-3 transition-colors duration-300 hover:text-[#c4a661] ${
                 path === link.path
                   ? "text-[#c4a661] border-l-4 border-[#c4a661] pl-3 bg-[#1a1a1a]"

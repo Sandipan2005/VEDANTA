@@ -1,13 +1,22 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import HeroHomeBG from "../../assets/HeroHomeBG.png";
+import FounderPhoto from "../../assets/FounderPhoto.png";
 
 const FounderSection = () => {
   return (
-    <section className="relative min-h-[90vh] bg-black text-white overflow-hidden py-24 md:py-32 px-5 sm:px-8 md:px-12 xl:px-24 flex items-center   bg-diamond-grid">
+    <section
+      className="relative min-h-[85vh]  text-white overflow-hidden py-24 md:py-32 px-5 sm:px-8 md:px-12 xl:px-24 flex items-center"
+      style={{
+        backgroundImage: `url(${HeroHomeBG})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       {/* Light gradient mask to make grid fade out towards center */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_10%,#000000_85%)] pointer-events-none"></div>
+      {/* <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_10%,#000000_85%)] pointer-events-none"></div> */}
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-16 pt-16">
+      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-6 pt-3">
         {/* Left Column: Image & Name */}
         <div className="w-full lg:w-4/12 flex flex-col xl:pl-4 mt-8 lg:mt-0">
           <div className="relative inline-block self-center lg:self-start">
@@ -17,9 +26,9 @@ const FounderSection = () => {
 
             {/* Photo */}
             <div
-              className="relative z-10 w-60 h-80 sm:w-[320px] sm:h-105 shadow-[0_0_40px_rgba(0,0,0,1)] overflow-hidden bg-cover bg-center"
+              className="relative z-10 w-[24rem] h-120 sm:w-md sm:h-136 md:w-100 md:h-140 shadow-[0_0_40px_rgba(0,0,0,1)] overflow-hidden bg-cover bg-center"
               style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')`,
+                backgroundImage: `url(${FounderPhoto})`,
               }}
             ></div>
           </div>
@@ -43,7 +52,7 @@ const FounderSection = () => {
           {/* Gold Bar underneath */}
           <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-12"></div>
 
-          <div className="space-y-[1.2rem] md:space-y-[1.8rem] text-[#e0e0e0] text-[14px] sm:text-[16px] md:text-[17px] leading-[1.7] md:leading-[1.8] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-12">
+          <div className="space-y-4 md:space-y-4 text-[#e0e0e0] text-[14px] sm:text-[16px] md:text-[17px] leading-[1.7] md:leading-[1.8] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-6">
             <p>
               As the Founder of Vedanta Legal Associates, I, Shri Bijoy Sarkar,
               have practiced for almost 50 years before the High Courts across
@@ -70,7 +79,7 @@ const FounderSection = () => {
             </p>
           </div>
 
-          <div className="text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px]   tracking-wider sm:tracking-widest leading-[1.3] mt-2 lg:mt-4 text-center lg:text-left">
+          <div className="text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px] tracking-wider sm:tracking-widest leading-[1.3] mt-2 lg:mt-4 text-center lg:text-left">
             <div>
               <span className="text-[#C4A661]">SMART</span>{" "}
               <span className="text-white">LAW ..</span>
