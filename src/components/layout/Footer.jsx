@@ -221,9 +221,9 @@ export default function Footer() {
 
         {/* GIGANTIC FADING TEXT SECTION */}
         {/* Adjusted to fade out perfectly into the black background at the bottom. */}
-        <div className="w-full flex justify-center items-center mt-0 pb-6 md:pb-12 pointer-events-none select-none relative h-45 sm:h-55 md:h-65 lg:h-87.5">
+        <div className="w-full flex justify-center items-center mt-0 pb-6 md:pb-12 pointer-events-none select-none relative h-45 sm:h-55 md:h-65 lg:h-87.5 ">
           <h1
-            className="absolute bottom-[-10%] lg:bottom-[-10%] text-[28vw] sm:text-[26vw] md:text-[24vw] lg:text-[290px] xl:text-[290px]   font-normal text-transparent bg-clip-text leading-none tracking-tighter m-0 p-0 text-center w-full"
+            className="absolute bottom-[-10%] lg:bottom-[-10%] text-[28vw] sm:text-[26vw] md:text-[24vw] lg:text-[290px] xl:text-[290px]   font-normal text-transparent bg-clip-text leading-none tracking-tighter m-0 p-0 text-center w-fit "
             style={{
               backgroundImage:
                 "linear-gradient(to bottom, #d4d4d4 0%, #3a3a3a 40%, black 75%)",
