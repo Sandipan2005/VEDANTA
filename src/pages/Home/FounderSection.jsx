@@ -6,7 +6,7 @@ import FounderPhoto from "../../assets/FounderPhoto.png";
 const FounderSection = () => {
   return (
     <section
-      className="relative min-h-[85vh]  text-white overflow-hidden py-24 md:py-32 px-5 sm:px-8 md:px-12 xl:px-24 flex items-center"
+      className="relative min-h-[55vh] md:mt-20 text-white overflow-hidden py-24 md:py-10 px-5 sm:px-8 md:px-12 xl:px-24 flex items-center"
       style={{
         backgroundImage: `url(${HeroHomeBG})`,
         backgroundSize: "cover",
@@ -26,7 +26,7 @@ const FounderSection = () => {
 
             {/* Photo */}
             <div
-              className="relative z-10 w-[24rem] h-120 sm:w-md sm:h-136 md:w-100 md:h-140 shadow-[0_0_40px_rgba(0,0,0,1)] overflow-hidden bg-cover bg-center"
+              className="relative z-10 w-85 h-120 sm:w-md sm:h-136 md:w-100 md:h-140 shadow-[0_0_40px_rgba(0,0,0,1)] overflow-hidden bg-cover bg-center"
               style={{
                 backgroundImage: `url(${FounderPhoto})`,
               }}
@@ -79,7 +79,7 @@ const FounderSection = () => {
             </p>
           </div>
 
-          <div className="text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px] tracking-wider sm:tracking-widest leading-[1.3] mt-2 lg:mt-4 text-center lg:text-left">
+          <div className="text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px] tracking-wider sm:tracking-widest md:tracking-widest font-extrabold leading-[1.3] mt-2 lg:mt-4 text-center lg:text-left">
             <div>
               <span className="text-[#C4A661]">SMART</span>{" "}
               <span className="text-white">LAW ..</span>
