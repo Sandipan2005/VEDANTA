@@ -38,7 +38,7 @@ const FounderSection = () => {
             <h2 className="text-[26px] md:text-[36px] sm:text-[32px]   font-bold tracking-wide text-white">
               B.S. Sarkar
             </h2>
-            <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-1"></div>
+            <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-1 hidden md:block"></div>
             <img
               src={Signature}
               alt="Founder Signature"
