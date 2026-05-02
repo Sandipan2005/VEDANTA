@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "../../components/layout/Header";
 import HeroBG from "../../assets/HeroHomeBG.png";
-import HeroImg from "../../assets/HomeAbout2.png";
+
 
 const PracticeAreasHero = () => {
   return (
@@ -33,11 +33,12 @@ const PracticeAreasHero = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: `url(${HeroImg})`,
+                backgroundImage:
+                  'url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80")',
               }}
             />
             {/* Dark Overlay over the inner image */}
-            <div className="absolute inset-0 bg-black/60" />
+            <div className="absolute inset-0 bg-black/70" />
 
             {/* Text Overlay Content */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">

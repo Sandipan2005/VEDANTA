@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Header from "../../components/layout/Header";
+import HeroBG from "../../assets/HeroHomeBG.png";
+import HeroImg from "../../assets/HomeOurServicesImg1.png";
 
 const PracticeAreasHero = () => {
   return (
@@ -8,16 +10,15 @@ const PracticeAreasHero = () => {
       {/* Dynamic Background Pattern - Diagonal Lines */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none flex items-center justify-center">
         <div
-          className="w-[200%] h-[200%] md:w-[150%] md:h-[150%] opacity-20"
+          className="w-[200%] h-[200%] md:w-full md:h-full opacity-100"
           style={{
-            backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.4) 1px, transparent 1px)`,
-            backgroundSize: "60px 60px",
-            transform: "rotate(45deg)",
-            transformOrigin: "center center",
+            backgroundImage: `url(${HeroBG})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         />
         {/* Soft radial gradient mask over the lines to fade them at edges */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" />
+        {/* <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" /> */}
       </div>
 
       <Header />
@@ -32,7 +33,9 @@ const PracticeAreasHero = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2624&auto=format&fit=crop')`,
+                backgroundImage: `url(${HeroImg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             />
             {/* Dark Overlay over the inner image */}
