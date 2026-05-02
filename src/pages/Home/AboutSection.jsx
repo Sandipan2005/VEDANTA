@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import Lawfirmdesks from "../../assets/HomeAbout1.png";
+import Courtroom1 from "../../assets/HomeAbout2.png";
+import Courtroom2 from "../../assets/HomeAbout3.png";
 
 const AboutSection = () => {
   return (
@@ -18,7 +21,7 @@ const AboutSection = () => {
         {/* Left Large Image */}
         <div className="w-full h-70 md:h-full overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            src={Lawfirmdesks}
             alt="Law firm desks"
             className="w-full h-full object-cover object-center"
           />
@@ -28,14 +31,14 @@ const AboutSection = () => {
         <div className="flex flex-col gap-4 h-full">
           <div className="w-full h-35 md:h-[calc(50%-8px)] overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1588225925345-0d29dce6cfa8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src={Courtroom1}
               alt="Courtroom 1"
               className="w-full h-full object-cover object-center"
             />
           </div>
           <div className="w-full h-35 md:h-[calc(50%-8px)] overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1453945619913-79ec89a82c51?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src={Courtroom2}
               alt="Courtroom 2"
               className="w-full h-full object-cover object-center"
             />
