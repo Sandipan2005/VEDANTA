@@ -1,12 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import founder1 from "../../assets/FounderPhoto.png";
+import founder2 from "../../assets/FounderPhoto2.png";
+import founder3 from "../../assets/FounderPhoto3.png";
 
 const TeamCard = ({ imageSrc, name, role }) => {
   return (
     <div className="relative w-full max-w-85 md:max-w-95 mx-auto mb-20 md:mb-24">
       {/* Image Container */}
-      <div className="w-full h-80 sm:h-87.5 md:h-90 bg-gray-200 overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.05)] border-[6px] border-white">
+      <div className="w-full h-80 sm:h-87.5 md:h-90 bg-gray-200 overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.05)] border-[6px] border-none">
         <img
           src={imageSrc}
           alt={name}
@@ -45,12 +48,12 @@ const OurTeamSection = () => {
         {/* Left Column */}
         <div className="flex flex-col pt-2 items-center">
           <TeamCard
-            imageSrc="https://plus.unsplash.com/premium_photo-1661645053075-8fb9a888c3a9?auto=format&fit=crop&w=800&q=80"
+            imageSrc={founder1}
             name="B.S. Sarkar"
             role="Founder"
           />
           <TeamCard
-            imageSrc="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
+            imageSrc={founder3}
             name="J.U. Khadim"
             role="Founder"
           />
@@ -72,7 +75,7 @@ const OurTeamSection = () => {
           </div>
 
           <TeamCard
-            imageSrc="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80"
+            imageSrc={founder2}
             name="D.C. Roy"
             role="Founder"
           />

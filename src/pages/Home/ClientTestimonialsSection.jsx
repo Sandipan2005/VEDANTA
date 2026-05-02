@@ -119,8 +119,8 @@ const ClientTestimonialsSection = () => {
             'url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80")',
         }}
       >
-        <div className="absolute inset-0 bg-[#3a200a]/70 mix-blend-multiply transition-opacity duration-1000"></div>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-[#3a200a]/40 mix-blend-multiply transition-opacity duration-1000"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
       <div className="relative z-10 max-w-350 mx-auto px-4 md:px-8">
