@@ -10,6 +10,7 @@ import OurTeamSection from "./OurTeamSection";
 import ClientTestimonialsSection from "./ClientTestimonialsSection";
 import ClientsAndContactSection from "./ClientsAndContactSection";
 import SocialCommitmentSection from "./SocialCommitmentSection.jsx";
+import ReachUsSection from "./ReachUsSection.jsx";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
 
       {/* 6. OUR CLIENTS & CONTACT US FORM */}
       <ClientsAndContactSection />
+        <ReachUsSection />
 
       {/* FOOTER */}
       <Footer />
