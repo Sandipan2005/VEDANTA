@@ -25,12 +25,12 @@ export default function Home() {
 
       {/*<ContactFormSection />*/}
         <SocialCommitmentSection />
+        <OurTeamSection />
 
       {/* 3. SERVICES */}
       <OurServicesSection />
 
       {/* 4. OUR TEAM */}
-      <OurTeamSection />
 
       {/* 5. CLIENT TESTIMONIALS */}
       <ClientTestimonialsSection />
