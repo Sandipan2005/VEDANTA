@@ -9,6 +9,7 @@ import OurServicesSection from "./OurServicesSection";
 import OurTeamSection from "./OurTeamSection";
 import ClientTestimonialsSection from "./ClientTestimonialsSection";
 import ClientsAndContactSection from "./ClientsAndContactSection";
+import SocialCommitmentSection from "./SocialCommitmentSection.jsx";
 
 export default function Home() {
   return (
@@ -22,7 +23,8 @@ export default function Home() {
       {/* 2. ABOUT US */}
       <AboutSection />
 
-      <ContactFormSection />
+      {/*<ContactFormSection />*/}
+        <SocialCommitmentSection />
 
       {/* 3. SERVICES */}
       <OurServicesSection />
