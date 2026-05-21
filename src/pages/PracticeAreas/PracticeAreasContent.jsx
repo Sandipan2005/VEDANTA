@@ -29,24 +29,24 @@ const PracticeAreaCard = ({
   paragraphs,
 }) => {
   return (
-    <div className="relative w-full max-w-4xl mx-auto mb-20 md:mb-32 pl-4 md:pl-10 ">
+    <div className="relative w-full max-w-400 mx-auto  mb-10 md:mb-10 pl-4 md:pl-10 ">
       {/* Background Number */}
-      <div
-        className="absolute z-0   font-black select-none pointer-events-none"
-        style={{
-          top: "-0.7em",
-          left: "-0.1em",
-          fontSize: "clamp(8rem, 15vw, 10rem)",
-          lineHeight: "0.8",
-          background:
-            "linear-gradient(180deg, #9D7C36 0%, rgba(229, 216, 184, 0.3) 90%, rgba(255, 255, 255, 0) 100%)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          letterSpacing: "-0.05em",
-        }}
-      >
-          {/*{number}*/}
-      </div>
+      {/*<div*/}
+      {/*  className="absolute z-0   font-black select-none pointer-events-none"*/}
+      {/*  style={{*/}
+      {/*    top: "-0.7em",*/}
+      {/*    left: "-0.1em",*/}
+      {/*    fontSize: "clamp(8rem, 15vw, 10rem)",*/}
+      {/*    lineHeight: "0.8",*/}
+      {/*    background:*/}
+      {/*      "linear-gradient(180deg, #9D7C36 0%, rgba(229, 216, 184, 0.3) 90%, rgba(255, 255, 255, 0) 100%)",*/}
+      {/*    WebkitBackgroundClip: "text",*/}
+      {/*    WebkitTextFillColor: "transparent",*/}
+      {/*    letterSpacing: "-0.05em",*/}
+      {/*  }}*/}
+      {/*>*/}
+      {/*    {number}*/}
+      {/*</div>*/}
 
       {/* Card Content */}
       <div className="relative z-10 bg-white p-8 md:p-12 shadow-[0_4px_25px_rgba(0,0,0,0.05)] rounded-sm border border-gray-50 flex flex-col gap-6">
@@ -102,9 +102,9 @@ const PracticeAreaCard = ({
 
 const PracticeAreasContent = () => {
   return (
-    <section className="py-16 md:py-16 px-4 md:px-8 bg-white relative overflow-hidden">
+    <section className="py-16 md:py-10 px-4 md:px-8 bg-white relative overflow-hidden">
       {/* Title Section */}
-      <div className="text-center mb-24 md:mb-32">
+      <div className="text-center mb-10 md:mb-10">
         <p className="text-gray-600 mb-4 tracking-wide">
           How Can We Help You ?
         </p>

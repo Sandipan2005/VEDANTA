@@ -14,7 +14,7 @@ export default function Footer() {
       {/* Top Main Section */}
       <div className="pt-20 lg:pt-28 pb-8 px-6 lg:px-12 max-w-350 mx-auto w-full relative z-10">
         {/* Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-10 xl:gap-8 mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0 xl:gap-0 mb-4">
           {/* Column 1 - Logo & Newsletter */}
           <div className="flex flex-col pr-4">
             {/* Logo Row */}
@@ -223,7 +223,7 @@ export default function Footer() {
         {/* Adjusted to fade out perfectly into the black background at the bottom. */}
         <div className="w-full flex justify-center items-center mt-0 pb-6 md:pb-12 pointer-events-none select-none relative h-45 sm:h-55 md:h-65 lg:h-87.5 ">
           <h1
-            className="absolute bottom-[-10%] lg:bottom-[-10%] text-[28vw] sm:text-[26vw] md:text-[24vw] lg:text-[250px] xl:text-[250px]   font-normal text-transparent bg-clip-text leading-none tracking-tighter m-0 p-0 text-center w-fit "
+            className="absolute bottom-[-10%] lg:top-[20%] text-[28vw] sm:text-[20vw] md:text-[24vw] lg:text-[250px] xl:text-[250px]   font-normal text-transparent bg-clip-text leading-none tracking-tighter m-0 p-0 text-center w-fit "
             style={{
               backgroundImage:
                 "linear-gradient(to bottom, #d4d4d4 0%, #3a3a3a 40%, black 75%)",

@@ -73,11 +73,11 @@ const ReachUsSection = () => {
                             {/* Full Name & Phone Row */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
-                                    <label htmlFor="fullName" className="text-black font-bold text-[14px] tracking-wide mb-2">Full Name *</label>
+                                    <label htmlFor="fullName" className="text-black font-bold text-[14px] tracking-wide mb-0">Full Name *</label>
                                     <input type="text" id="fullName" name="fullName" required className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <label htmlFor="phone" className="text-black font-bold text-[14px] tracking-wide mb-2">Phone Number *</label>
+                                    <label htmlFor="phone" className="text-black font-bold text-[14px] tracking-wide mb-0">Phone Number *</label>
                                     <input type="tel" id="phone" name="phone" required className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
                                 </div>
                             </div>
@@ -85,18 +85,18 @@ const ReachUsSection = () => {
                             {/* WhatsApp & Email Row */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
-                                    <label htmlFor="whatsapp" className="text-black font-bold text-[14px] tracking-wide mb-2">Whatsapp Number</label>
+                                    <label htmlFor="whatsapp" className="text-black font-bold text-[14px] tracking-wide mb-0">Whatsapp Number</label>
                                     <input type="tel" id="whatsapp" name="whatsapp" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <label htmlFor="email" className="text-black font-bold text-[14px] tracking-wide mb-2">Email ID</label>
+                                    <label htmlFor="email" className="text-black font-bold text-[14px] tracking-wide mb-0">Email ID</label>
                                     <input type="email" id="email" name="email" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
                                 </div>
                             </div>
 
                             {/* Address */}
                             <div className="flex flex-col">
-                                <label htmlFor="address" className="text-black font-bold text-[14px] tracking-wide mb-2">Address</label>
+                                <label htmlFor="address" className="text-black font-bold text-[14px] tracking-wide mb-0">Address</label>
                                 <input type="text" id="address" name="address" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
                             </div>
 
