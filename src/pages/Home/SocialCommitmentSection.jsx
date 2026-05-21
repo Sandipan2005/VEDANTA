@@ -35,11 +35,11 @@ const SocialCommitmentSection = () => {
             <header className="mb-8 md:mb-10 text-center flex flex-col items-center">
                 <h2
                     id="social-commitment-heading"
-                    className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide text-black mb-2"
+                    className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide text-[#222222] mb-2"
                 >
                     “Our Social Commitment”
                 </h2>
-                <h3 className="text-xl md:text-2xl font-bold text-[#C4A661] tracking-wide">
+                <h3 className="text-xl md:text-2xl font-bold text-[#222222] tracking-wide">
                     IVS (Since 1990)
                 </h3>
                 <div className="w-16 h-0.5 md:h-[3px] bg-[#C4A661] mt-6"></div>
@@ -50,17 +50,14 @@ const SocialCommitmentSection = () => {
                     IVS is a non-profit organisation associated with Vedanta Legal Associates. Established in
                     1990, IVS has been dedicated to social welfare and empowerment activities for more than
                     three decades.
-                </p>
-                <p>
+
                     The organisation works towards promoting social equality and making justice accessible to all
                     sections of society.
-                </p>
-                <p>
+
                     Through various initiatives, IVS conducts legal awareness programmes, provides free legal
                     aid to those in need, supports educational opportunities for children from weaker sections, and
                     runs women empowerment awareness campaigns.
-                </p>
-                <p>
+
                     IVS functions independently as a charitable body and remains committed to community
                     development and the upliftment of society in line with constitutional values of equality and
                     justice.

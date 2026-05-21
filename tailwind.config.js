@@ -6,9 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         // Body copy
-        sans: ['Urbanist'],
+        sans: ['"LTC Goudy Oldstyle Pro"', 'sans-serif'],
         // Headings
-        serif: ['"Playfair Display"'],
+        serif: ['"Goudy Old Style Regular"', 'serif'],
       },
     },
   },

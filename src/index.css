@@ -1,10 +1,24 @@
 @import "tailwindcss";
 
-/* Global font assignments - body uses Urbanist, headings use Playfair Display */
+@font-face {
+  font-family: "Goudy Old Style Regular";
+  src: url("/fonts/Goudy Old Style Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LTC Goudy Oldstyle Pro";
+  src: url("/fonts/fonnts.com-LTC-Goudy-Oldstyle-Pro-.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global font assignments */
 @layer base {
   html,
   body {
-    font-family: "Urbanist";
+    font-family: "LTC Goudy Oldstyle Pro", sans-serif;
   }
 
   h1,
@@ -13,6 +27,6 @@
   h4,
   h5,
   h6 {
-    font-family: "Playfair Display";
+    font-family: "Goudy Old Style Regular", serif;
   }
 }

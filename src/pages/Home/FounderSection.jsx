@@ -8,7 +8,7 @@ import Signature from "../../assets/FounderSign.png";
 const FounderSection = () => {
     return (<section
 
-        className="relative min-h-screen w-full text-white overflow-hidden py-16 md:py-24 px-5 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-start"
+        className="relative min-h-screen w-full text-white overflow-hidden py-16 md:pt-24 md:pb-10 px-5 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-start"
         // style={{
         //     backgroundImage: `url(${HeroHomeBG})`, backgroundSize: "cover", backgroundPosition: "center",
         // }}
@@ -42,7 +42,7 @@ const FounderSection = () => {
 
         {/* --- FOUNDER SECTION / BOTTOM SECTION --- */}
         <article
-            className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-8">
+            className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-1 bg-[#222222] pt-10 pl-10">
 
             {/* Left Column: Image & Name */}
             <div className="w-full lg:w-4/12 flex flex-col items-center lg:items-start xl:pl-4">

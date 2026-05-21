@@ -138,10 +138,10 @@ const AboutSection = () => {
         {/*    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}*/}
         {/*/>*/}
 
-        <header className="mb-6 md:mb-8 text-center">
+        <header className="mb-6 md:mb-8 text-center ">
           <h2
               id="about-heading"
-              className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase text-black"
+              className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase text-[#222222]"
           >
             ABOUT US
           </h2>
@@ -152,31 +152,26 @@ const AboutSection = () => {
             Vedanta Legal Associates is a full-service law firm committed to excellence, integrity, and
             justice. The firm was established with a vision to provide high-quality legal services while
             promoting legal awareness among the people.
-          </p>
-          <p>
+
             The firm has three Founders and two Co-Founders. The Founders are Shri Bijoy Sarkar, Shri
             Debesh Chandra Ray, and Shri Jamiar Hossain Khadim. The Co-Founders are Shri Kuntal
             Ghosh and Smti Sangita Biswas.
-          </p>
-          <p>
+
             Shri Bijoy Sarkar, one of the principal Founders, brings nearly five decades of rich and
             extensive legal experience. He has practiced for almost 50 years before the High Courts
             across India, the Supreme Court of India, various District Courts, Sessions Courts, and
             Tribunals.
-          </p>
-          <p>
+
             With the combined strength and expertise of three Founders and two Co-Founders, Vedanta
             Legal Associates brings together vast knowledge, deep understanding of law, and a shared
             commitment to justice. The firm blends traditional ethical values with modern legal practices
             to effectively serve its clients.
-          </p>
-          <p>
+
             At Vedanta Legal Associates, we are dedicated to providing reliable legal solutions to
             individuals, families, businesses, and institutions. We are equally committed to mentoring the
             new generation of junior lawyers and spreading legal awareness so that every citizen
             understands and can exercise their constitutional rights.
-          </p>
-          <p>
+
             Our practice is guided by the principles of honesty, dedication, and an unwavering
             commitment to truth and justice. We strive to be a trusted legal partner for clients in across
             India.

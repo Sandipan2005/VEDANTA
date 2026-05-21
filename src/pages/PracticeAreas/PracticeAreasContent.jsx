@@ -108,8 +108,8 @@ const PracticeAreasContent = () => {
         <p className="text-gray-600 mb-4 tracking-wide">
           How Can We Help You ?
         </p>
-        <h2 className="text-3xl md:text-5xl   font-bold uppercase tracking-wider mb-6">
-          What can we <span className="text-[#c4a661]">help you</span> with
+        <h2 className="text-3xl md:text-5xl  text-[#222222] font-bold uppercase tracking-wider mb-6">
+          What can we <span className="text-[#222222]">help you</span> with
         </h2>
         <div className="w-20 md:w-32 h-0.5 bg-[#c4a661] mx-auto"></div>
       </div>

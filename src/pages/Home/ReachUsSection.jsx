@@ -31,9 +31,9 @@ const ReachUsSection = () => {
                 <div className="relative inline-block text-center">
                     <h2
                         id="reach-us-heading"
-                        className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-black"
+                        className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-[#222222]"
                     >
-                        REACH <span className="text-[#a08552]">US</span>
+                        REACH <span className="text-[#222222]">US</span>
                     </h2>
                     <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>
                 </div>
@@ -45,7 +45,7 @@ const ReachUsSection = () => {
                 {/* Left Column: Statement Box (Sticky on Desktop) */}
                 <div className="w-full lg:w-5/12 lg:sticky lg:top-24">
                     <div className="bg-white rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-12">
-                        <div className="space-y-6 text-gray-800 text-[15px] md:text-[17px] leading-[1.8] font-light text-justify md:text-left">
+                        <div className="space-y-6 text-gray-800 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify md:text-left">
                             <p>
                                 Thank you for reaching out to Vedanta Legal Associates.
                             </p>
@@ -66,12 +66,12 @@ const ReachUsSection = () => {
                 <div className="w-full lg:w-7/12">
                     <div className="bg-white rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-12">
                         <form
-                            className="flex flex-col gap-6"
+                            className="flex flex-col gap-3"
                             encType="multipart/form-data"
                         >
 
                             {/* Full Name & Phone Row */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="fullName" className="text-black font-bold text-[14px] tracking-wide mb-2">Full Name *</label>
                                     <input type="text" id="fullName" name="fullName" required className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
@@ -83,7 +83,7 @@ const ReachUsSection = () => {
                             </div>
 
                             {/* WhatsApp & Email Row */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="whatsapp" className="text-black font-bold text-[14px] tracking-wide mb-2">Whatsapp Number</label>
                                     <input type="tel" id="whatsapp" name="whatsapp" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
@@ -101,7 +101,7 @@ const ReachUsSection = () => {
                             </div>
 
                             {/* Jurisdiction & Type of Incident Row */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="jurisdiction" className="text-black font-bold text-[14px] tracking-wide mb-2">Jurisdiction / Place of Incident</label>
                                     <input type="text" id="jurisdiction" name="jurisdiction" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />
@@ -113,7 +113,7 @@ const ReachUsSection = () => {
                             </div>
 
                             {/* Date & Communication Mode Row */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="incidentDate" className="text-black font-bold text-[14px] tracking-wide mb-2">Date of Incident</label>
                                     <input type="date" id="incidentDate" name="incidentDate" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent text-gray-700" />
@@ -142,7 +142,7 @@ const ReachUsSection = () => {
                             </div>
 
                             {/* File Uploads */}
-                            <div className="flex flex-col gap-4 mt-2 bg-gray-50 p-6 rounded-2xl border border-gray-100">
+                            <div className="flex flex-col gap-3 mt-2 bg-gray-50 p-6 rounded-2xl border border-gray-100">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                                     <label htmlFor="idProof" className="text-black font-bold text-[14px] tracking-wide flex items-center gap-2">
                                         <Upload size={16} className="text-[#a08552]" /> Attach ID Proof *
