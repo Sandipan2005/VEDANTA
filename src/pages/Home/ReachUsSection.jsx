@@ -48,12 +48,10 @@ const ReachUsSection = () => {
                         <div className="space-y-6 text-gray-800 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify md:text-left">
                             <p>
                                 Thank you for reaching out to Vedanta Legal Associates.
-                            </p>
-                            <p>
+
                                 Please fill the form below with your full details and a clear description of your query.
                                 This will help us understand your requirements properly.
-                            </p>
-                            <p>
+
                                 Our team will review your submission carefully and get in touch with you at the earliest.
                                 We are committed to responding to all genuine enquiries as promptly as possible while upholding
                                 the highest standards of professionalism and confidentiality.
