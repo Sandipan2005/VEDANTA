@@ -45,7 +45,7 @@ const PracticeAreaCard = ({
           letterSpacing: "-0.05em",
         }}
       >
-        {number}
+          {/*{number}*/}
       </div>
 
       {/* Card Content */}
