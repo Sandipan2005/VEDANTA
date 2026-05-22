@@ -56,7 +56,7 @@ const OurServicesSection = () => {
 
               <h2
                   id="services-heading"
-                  className="text-3xl md:text-4xl font-extrabold tracking-wide text-[#222222] mb-6 text-center lg:text-left"
+                  className="text-3xl md:text-4xl font-extrabold tracking-wide text-[#303030] mb-6 text-center lg:text-left"
               >
                 Practice Areas
               </h2>

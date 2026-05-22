@@ -29,7 +29,7 @@ const PracticeAreaCard = ({
   paragraphs,
 }) => {
   return (
-    <div className="relative w-full max-w-400 mx-auto  mb-10 md:mb-10 pl-4 md:pl-10 ">
+    <div className="relative w-full mx-auto mb-10 md:mb-10 px-4 md:px-8">
       {/* Background Number */}
       {/*<div*/}
       {/*  className="absolute z-0   font-black select-none pointer-events-none"*/}
@@ -50,15 +50,18 @@ const PracticeAreaCard = ({
 
       {/* Card Content */}
       <div className="relative z-10 bg-white p-8 md:p-12 shadow-[0_4px_25px_rgba(0,0,0,0.05)] rounded-sm border border-gray-50 flex flex-col gap-6">
-        <h3 className="text-2xl md:text-3xl   text-center font-bold relative inline-block mx-auto mb-6">
+        <h3
+          className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6"
+          style={{ textShadow: " 0px 2px 5px #303030" }}
+        >
           {title}
           <div className="absolute left-1/4 right-1/4 h-0.5 bg-[#c4a661] -bottom-3"></div>
         </h3>
 
         {(listCol1 || listCol2) && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 mb-4">
+          <div className="flex flex-col sm:flex-row justify-center gap-x-8 md:gap-x-16 gap-y-4 mb-4 max-w-5xl mx-auto w-full">
             {listCol1 && (
-              <ul className="space-y-4">
+              <ul className="space-y-4 flex-1 max-w-sm">
                 {listCol1.map((item, idx) => (
                   <li
                     key={idx}
@@ -73,7 +76,7 @@ const PracticeAreaCard = ({
               </ul>
             )}
             {listCol2 && (
-              <ul className="space-y-4">
+              <ul className="space-y-4 flex-1 max-w-sm">
                 {listCol2.map((item, idx) => (
                   <li
                     key={idx}
@@ -108,14 +111,14 @@ const PracticeAreasContent = () => {
         <p className="text-gray-600 mb-4 tracking-wide">
           How Can We Help You ?
         </p>
-        <h2 className="text-3xl md:text-5xl  text-[#222222] font-bold uppercase tracking-wider mb-6">
-          What can we <span className="text-[#222222]">help you</span> with
+        <h2 className="text-3xl md:text-5xl  text-[#303030] font-bold uppercase tracking-wider mb-6">
+          What can we <span className="text-[#303030]">help you</span> with
         </h2>
         <div className="w-20 md:w-32 h-0.5 bg-[#c4a661] mx-auto"></div>
       </div>
 
       {/* Cards Container */}
-      <div className="max-w-6xl mx-auto space-y-8">
+      <div className="w-full px-2 lg:px-8 mx-auto space-y-8">
         {/* Area 1 */}
         <PracticeAreaCard
           number="01"

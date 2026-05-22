@@ -141,13 +141,13 @@ const AboutSection = () => {
         <header className="mb-6 md:mb-8 text-center ">
           <h2
               id="about-heading"
-              className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase text-[#222222]"
+              className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase text-[#303030]"
           >
             ABOUT US
           </h2>
         </header>
 
-        <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-3">
+        <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-3 lg:text-center">
           <p>
             Vedanta Legal Associates is a full-service law firm committed to excellence, integrity, and
             justice. The firm was established with a vision to provide high-quality legal services while

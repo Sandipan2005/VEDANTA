@@ -9,8 +9,8 @@ export default function ContactForm() {
         {/* --- Header Section --- */}
         <div className="text-center mb-16 flex flex-col items-center">
           <h2 className="text-3xl md:text-[34px] font-serif tracking-widest flex items-center gap-3">
-            <span className="font-bold text-[#222222] uppercase">Our Contact</span>
-            <span className="font-bold text-[#222222] uppercase relative">
+            <span className="font-bold text-[#303030] uppercase">Our Contact</span>
+            <span className="font-bold text-[#303030] uppercase relative">
               Details
               {/* Gold Underline */}
               <span className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-14 h-0.5 bg-[#A68A56]"></span>

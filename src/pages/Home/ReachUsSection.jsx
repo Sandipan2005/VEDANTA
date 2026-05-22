@@ -31,9 +31,9 @@ const ReachUsSection = () => {
                 <div className="relative inline-block text-center">
                     <h2
                         id="reach-us-heading"
-                        className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-[#222222]"
+                        className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-[#303030]"
                     >
-                        REACH <span className="text-[#222222]">US</span>
+                        REACH <span className="text-[#303030]">US</span>
                     </h2>
                     <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>
                 </div>

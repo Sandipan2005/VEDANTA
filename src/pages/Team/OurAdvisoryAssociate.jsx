@@ -159,8 +159,8 @@ const advisoryData = [
 const SectionHeader = ({ prefix, highlight }) => (
     <div className="text-center mb-15 flex flex-col items-center">
       <h2 className="text-3xl md:text-[36px] tracking-widest flex flex-wrap justify-center items-center gap-x-3 gap-y-2 ">
-        <span className="font-bold text-[#222222] uppercase">{prefix}</span>
-        <span className="font-bold text-[#222222] uppercase relative pb-1">
+        <span className="font-bold text-[#303030] uppercase">{prefix}</span>
+        <span className="font-bold text-[#303030] uppercase relative pb-1">
         {highlight}
           {/* Gold Underline */}
           <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-[3px] bg-[#C4A661]"></span>

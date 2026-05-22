@@ -81,8 +81,8 @@ export default function FoundersSection() {
         {/* Header Section */}
         <div className="text-center mb-16 flex flex-col items-center">
           <h2 className="text-3xl md:text-[32px]   tracking-widest flex items-center gap-3">
-            <span className="font-bold text-[#222222] uppercase">Our</span>
-            <span className="font-bold text-[#222222] uppercase relative">
+            <span className="font-bold text-[#303030] uppercase">Our</span>
+            <span className="font-bold text-[#303030] uppercase relative">
                Founder
               {/* Gold Underline positioned under 'Founders' */}
               <span className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-12 h-0.5 bg-[#A68A56]"></span>

@@ -19,7 +19,7 @@ const FounderSection = () => {
 
         {/* --- HERO / TOP SECTION --- */}
         <header
-            className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center mt-4 mb-20 md:mb-26 space-y-8">
+            className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center mt-8 mb-20 md:mb-26 space-y-8">
             {/* Logo Placeholder */}
             <div
                 className="flex items-center justify-center w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 bg-white/10 rounded-full border-none border-[#C4A661]/50 backdrop-blur-sm mb-6">
@@ -42,7 +42,7 @@ const FounderSection = () => {
 
         {/* --- FOUNDER SECTION / BOTTOM SECTION --- */}
         <article
-            className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-1 bg-[#222222] pt-10 pl-10 pr-10">
+            className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-1 bg-[#303030] pt-10 pl-10 pr-10">
 
             {/* Left Column: Image & Name */}
             <div className="w-full lg:w-4/12 flex flex-col items-center lg:items-start xl:pl-4">
@@ -80,14 +80,14 @@ const FounderSection = () => {
 
             {/* Right Column: Text Content */}
             <div className="w-full lg:w-8/12 flex flex-col justify-center lg:pl-8 xl:pl-12">
-                <h2 className="text-[28px] sm:text-[34px] md:text-[40px] font-bold tracking-[0.03em] mb-4 uppercase text-white leading-tight">
+                <h2 className="text-[28px] sm:text-[34px] md:text-[40px] font-bold tracking-[0.03em] mb-4 uppercase text-white leading-tight lg:text-center">
                     Founder's Desk
                 </h2>
                 {/* Gold Bar underneath */}
-                <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-10"></div>
+                <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-10 lg:mx-auto"></div>
 
                 <div
-                    className="space-y-4 md:space-y-5 text-[#e0e0e0] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.4] md:leading-[1.4] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-8 text-justify lg:text-left">
+                    className="space-y-4 md:space-y-5 text-[#e0e0e0] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.4] md:leading-[1.4] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-8 text-justify lg:text-center">
                     <p>
                         As the Founder of Vedanta Legal Associates, I, Shri Bijoy Sarkar,
                         have practiced for almost 50 years before the High Courts across

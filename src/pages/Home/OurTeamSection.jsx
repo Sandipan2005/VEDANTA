@@ -137,9 +137,9 @@ const OurTeamSection = () => {
           <div className="text-center relative">
             <h2
                 id="team-heading"
-                className="text-[32px] sm:text-[40px] md:text-[48px] tracking-normal uppercase leading-none text-[#222222] font-extrabold"
+                className="text-[32px] sm:text-[40px] md:text-[48px] tracking-normal uppercase leading-none text-[#303030] font-extrabold"
             >
-              CO-FOUNDERS & <span className="text-[#222222] font-normal">MANAGING PARTNERS</span>
+              CO-FOUNDERS & <span className="text-[#303030] font-normal">MANAGING PARTNERS</span>
             </h2>
             <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>
           </div>
@@ -175,7 +175,7 @@ const OurTeamSection = () => {
           </div>
 
           {/* Right Column: Text block and Stats (Dark Theme) */}
-          <article className="lg:h-280 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-8 md:p-10 lg:p-12 shadow-2xl">
+          <article className="lg:h-260 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-8 md:p-10 lg:p-12 shadow-2xl">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-white uppercase mb-2">
                 Our Team
