@@ -95,7 +95,7 @@ const PracticeAreaCard = ({
           </div>
         )}
 
-        <div className="space-y-5 text-gray-600 text-sm md:text-base leading-relaxed">
+        <div className="space-y-5 text-gray-600 text-sm md:text-base leading-relaxed text-justify">
           {paragraphs.map((para, idx) => (
             <p key={idx}>{para}</p>
           ))}
