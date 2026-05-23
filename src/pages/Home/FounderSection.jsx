@@ -66,15 +66,16 @@ const FounderSection = () => {
 
                 <div
                     className="mt-8 text-center lg:text-left pt-2 pb-6 w-full flex flex-col items-center lg:items-start">
-                    <h3 className="text-[26px] md:text-[32px] font-bold tracking-wide text-white">
-                        B.S. Sarkar
-                    </h3>
-                    <div className="w-12 md:w-16 h-0.5 md:h-[3px] bg-[#C4A661] my-4"></div>
+                    {/*<h3 className="text-[26px] md:text-[32px] font-bold tracking-wide text-white">*/}
+                    {/*    B.S. Sarkar*/}
+                    {/*</h3>*/}
+
                     <img
                         src={Signature}
                         alt="B.S. Sarkar Signature"
                         className="w-32 sm:w-40 md:w-48 opacity-100"
                     />
+                    <div className="w-12 md:w-47 h-0.5 md:h-[3px] bg-[#C4A661] my-4"></div>
                 </div>
             </div>
 

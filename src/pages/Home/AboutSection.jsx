@@ -138,13 +138,14 @@ const AboutSection = () => {
         {/*    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}*/}
         {/*/>*/}
 
-        <header className="mb-6 md:mb-8 text-center ">
+        <header className="mb-8 md:mb-10 text-center flex flex-col items-center ">
           <h2
               id="about-heading"
               className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase text-[#303030]"
           >
             ABOUT US
           </h2>
+          <div className="w-16 h-0.5 md:h-[3px] bg-[#C4A661] mt-6"></div>
         </header>
 
         <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-3 text-justify">
