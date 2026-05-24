@@ -51,7 +51,7 @@ const PracticeAreaCard = ({
       {/* Card Content */}
       <div className="relative z-10 bg-white p-8 md:p-12 lg:pt-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)] rounded-sm border border-gray-50 flex flex-col gap-6">
         <h3
-          className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6 bg-[#c4a661] rounded-sm p-2"
+          className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6  rounded-sm p-2"
           // style={{ textShadow: "0px 4px 30px #303030 " }}
 
         >

@@ -15,10 +15,10 @@ const FounderSection = () => {
         // aria-label="Vedanta Legal Associates Introduction"
     >
         {/* Optional: Dark overlay to ensure text readability over the background image */}
-        <div className="absolute inset-0 bg-black/30 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-white to-gray-500 pointer-events-none"></div>
 
         {/* --- HERO / TOP SECTION --- */}
-        <header className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center mt-20 mb-20 md:mb-27 space-y-10">
+        <header className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center mt-20 mb-20 md:mb-38 space-y-10">
             {/* Logo Placeholder */}
             <div
                 className="flex items-center justify-center w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 bg-white/10 rounded-full border-none border-[#C4A661]/50 backdrop-blur-sm mb-6">
@@ -29,12 +29,12 @@ const FounderSection = () => {
             </div>
 
             {/* Firm Name */}
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-wide text-gray-300 drop-shadow-lg lg:text-nowrap">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-wide text-black drop-shadow-lg lg:text-nowrap">
                 Vedanta Legal Associates
             </h1>
 
             {/* Tagline */}
-            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium italic text-gray-200 tracking-wide max-w-4xl drop-shadow-md">
+            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium italic text-black tracking-wide max-w-4xl drop-shadow-md lg:text-nowrap relative lg:-left-20">
                 “Committed to Diligent and Time Bound Resolution of Matters”
             </p>
         </header>
