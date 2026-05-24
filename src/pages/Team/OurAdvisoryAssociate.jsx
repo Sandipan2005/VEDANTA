@@ -139,20 +139,20 @@ import FounderPhoto3 from "../../assets/FounderPhoto3.png";
 // --- Mock Data ---
 // Expanded to demonstrate the 5-per-row automatic wrapping
 const associateData = [
-  { id: 1, name: "Srijita Sarkar", imageSrc: FounderPhoto },
-  { id: 2, name: "Ritwika Sinha", imageSrc: FounderPhoto2 },
-  { id: 3, name: "Siddhartha Singh", imageSrc: FounderPhoto3 },
-  { id: 4, name: "Aayushi Mehta", imageSrc: FounderPhoto },
-  { id: 5, name: "Aarish Dhunjibhoy", imageSrc: FounderPhoto2 },
-  { id: 6, name: "Abinash Pradhan", imageSrc: FounderPhoto3 },
-  { id: 7, name: "Abir Patel", imageSrc: FounderPhoto },
+  { id: 1, name: "Name", imageSrc: null, state:"state" },
+  { id: 2, name: "Name", imageSrc: null, state:"state" },
+  { id: 3, name: "Name", imageSrc: null, state:"state" },
+  { id: 4, name: "Name", imageSrc: null, state:"state" },
+  { id: 5, name: "Name", imageSrc: null, state:"state" },
+  { id: 6, name: "Name", imageSrc: null, state:"state" },
+  { id: 7, name: "Name", imageSrc: null, state:"state" },
 ];
 
-const advisoryData = [
-  { id: 1, name: "Senior Advisor One", imageSrc: FounderPhoto },
-  { id: 2, name: "Senior Advisor Two", imageSrc: FounderPhoto2 },
-  { id: 3, name: "Senior Advisor Three", imageSrc: FounderPhoto3 },
-];
+// const advisoryData = [
+//   { id: 1, name: "Senior Advisor One", imageSrc: FounderPhoto },
+//   { id: 2, name: "Senior Advisor Two", imageSrc: FounderPhoto2 },
+//   { id: 3, name: "Senior Advisor Three", imageSrc: FounderPhoto3 },
+// ];
 
 // --- Subcomponents ---
 
@@ -169,14 +169,14 @@ const SectionHeader = ({ prefix, highlight }) => (
     </div>
 );
 
-const TeamMemberCard = ({ name, imageSrc }) => (
+const TeamMemberCard = ({ name, imageSrc, state }) => (
     <article className="flex flex-col items-center w-full max-w-[160px] sm:max-w-[180px] md:max-w-[200px] group cursor-pointer">
       {/* Medium sized, centered picture */}
       <div className="w-full aspect-[4/5] bg-gray-200 overflow-hidden mb-4 shadow-sm border border-gray-200 transition-shadow duration-300 group-hover:shadow-md">
         <img
             src={imageSrc}
-            alt={name}
-            className="w-full h-full object-cover object-top filter brightness-[0.95] contrast-[1.05] group-hover:scale-105 transition-transform duration-500"
+            // alt={name}
+            className="w-full h-full object-cover object-top filter brightness-[0.95] contrast-[1.05] group-hover:scale-105 transition-transform duration-500 bg-black"
             loading="lazy"
         />
       </div>
@@ -185,6 +185,8 @@ const TeamMemberCard = ({ name, imageSrc }) => (
       <div className="w-full border-t border-[#C4A661]/50 pt-3 text-center px-1">
         <h3 className="text-[12px] md:text-[13px] font-serif font-bold text-[#0a1128] tracking-[0.15em] uppercase truncate">
           {name}
+            <br/>
+            {state}
         </h3>
       </div>
     </article>
