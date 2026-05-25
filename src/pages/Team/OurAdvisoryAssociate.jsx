@@ -143,9 +143,9 @@ const associateData = [
   { id: 2, name: "Name", imageSrc: null, state:"state" },
   { id: 3, name: "Name", imageSrc: null, state:"state" },
   { id: 4, name: "Name", imageSrc: null, state:"state" },
-  { id: 5, name: "Name", imageSrc: null, state:"state" },
-  { id: 6, name: "Name", imageSrc: null, state:"state" },
-  { id: 7, name: "Name", imageSrc: null, state:"state" },
+  // { id: 5, name: "Name", imageSrc: null, state:"state" },
+  // { id: 6, name: "Name", imageSrc: null, state:"state" },
+  // { id: 7, name: "Name", imageSrc: null, state:"state" },
 ];
 
 // const advisoryData = [
@@ -176,7 +176,7 @@ const TeamMemberCard = ({ name, imageSrc, state }) => (
         <img
             src={imageSrc}
             // alt={name}
-            className="w-full h-full object-cover object-top filter brightness-[0.95] contrast-[1.05] group-hover:scale-105 transition-transform duration-500 bg-black"
+            className="w-full h-full object-cover object-top filter brightness-[0.95] contrast-[1.05] group-hover:scale-105 transition-transform duration-500 bg-white"
             loading="lazy"
         />
       </div>
@@ -196,8 +196,8 @@ const TeamMemberCard = ({ name, imageSrc, state }) => (
 
 export default function OurAdvisoryAssociate() {
   return (
-      <div className="bg-[#FAFAFA] min-h-screen py-15 px-4 sm:px-8 md:px-12 xl:px-24">
-        <div className="max-w-[1400px] mx-auto flex flex-col gap-24">
+      <div className="bg-[#FAFAFA] min-h-auto py-15 px-4 sm:px-8 md:px-12 xl:px-24">
+        <div className="max-w-350 mx-auto flex flex-col gap-24">
 
           {/* Advisory Section */}
           {/*<section aria-labelledby="advisory-heading">*/}
