@@ -2,16 +2,17 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
 import founder1 from "../../assets/FounderPhoto.png";
-import founder2 from "../../assets/FounderPhoto2.png";
-import founder3 from "../../assets/FounderPhoto3.png";
-
+import CoFounderPhoto from "../../assets/CoFounder.png";
+import CoFounder2 from "../../assets/FounderPhoto2.png";
+import CoFounder3 from "../../assets/FounderPhoto3.png";
+import CoFounder4 from "../../assets/CoFounder4.jpeg";
 // Mock data to generate the 3x3 grid (9 items total)
 const teamMembers = [
   { id: 1, name: "B.S. Sarkar", imageSrc: founder1 },
-  { id: 2, name: "D.C. Roy", imageSrc: founder2 },
-  { id: 3, name: "J.U. Khadim", imageSrc: founder3 },
-  { id: 4, name: "K. Ghosh", imageSrc: founder1 },
-  { id: 5, name: "S. Biswas", imageSrc: founder2 },
+  { id: 2, name: "Kuntal Ghosh", imageSrc: CoFounderPhoto },
+  { id: 3, name: "D.C. Roy", imageSrc: CoFounder2 },
+  { id: 4, name: "J.U. Khadim", imageSrc: CoFounder3 },
+  { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
   // { id: 6, name: "A. Sharma", imageSrc: founder3 },
   // { id: 7, name: "R. Chatterjee", imageSrc: founder1 },
   // { id: 8, name: "P. Banerjee", imageSrc: founder2 },
