@@ -68,7 +68,7 @@ const OurTeamSection = () => {
           </div>
 
           {/* Right Column: Text block and Stats (Dark Theme) */}
-          <article className="lg:h-140 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-5 md:p-10 lg:p-7 shadow-2xl">
+          <article className="lg:h-141 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-5 md:p-10 lg:p-7 shadow-2xl">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-white uppercase mb-2">
                 Our Team
