@@ -167,15 +167,7 @@ const PracticeAreasContent = () => {
                 />
 
                 {/* Area 3 */}
-                <PracticeAreaCard
-                    number="03"
-                    title="Consumer Protection Law"
-                    paragraphs={[
-                        "Consumer Protection Law: The firm handles matters relating to Consumer Protection Law before the Consumer Disputes Redressal Forums and Commissions at district, state, and national levels.",
-                        "This practice area covers filing and defending consumer complaints and disputes between consumers and service providers or manufacturers. It includes issues relating to defective goods, deficient services, unfair trade practices, misleading advertisements, and product liability.",
-                        "Consumer disputes are governed by the Consumer Protection Act, 2019. Complaints can be filed for compensation, replacement, or refund depending on the nature of deficiency. Forums have pecuniary jurisdiction based on the value of goods or services. Proceedings involve filing of complaints, replies, evidence, and arguments. Appeals lie before higher commissions. The firm provides assistance in drafting complaints, representation before consumer forums, and handling of appeals under the Consumer Protection Act and related rules.",
-                    ]}
-                />
+
                 {/* Area 4 */}
                 <PracticeAreaCard
                     number="04"
@@ -226,7 +218,157 @@ const PracticeAreasContent = () => {
                         "The work may include mutual consent divorce, contested divorce, child custody, visitation rights, maintenance, alimony, domestic violence proceedings, succession matters, Muslim law matters, adoption, guardianship, and preparation of family settlement documents.Matrimonial proceedings may be governed by applicable personal laws and secular statutes depending on the parties and nature of the dispute.Divorce proceedings may involve grounds such as cruelty, desertion, mutual consent, or other legally recognised grounds.Mutual consent divorce generally requires settlement terms and compliance with statutory procedure.",
                         "Child custody and visitation matters are considered with reference to the welfare of the child. Maintenance and alimony claims may involve assessment of income, expenses, dependency, standard of living, and legal entitlement. Domestic violence proceedings may involve protection orders, residence orders, monetary relief, custody orders, or compensation.",
                         "Succession and will matters may require compliance with the Indian Succession Act, personal laws, or applicable customary practices. Adoption and guardianship proceedings may require documents, consent, verification, and court approval where applicable.",
-                        ]}
+                    ]}
+                />
+
+                <PracticeAreaCard
+                    number={"05"}
+                    title={"Corporate & Commercial Law"}
+                    listCol1={[
+                        "Company incorporation and compliance",
+                        "Drafting and review of commercial contracts",
+                        "Mergers, acquisitions, and restructuring",
+                        "Corporate governance and secretarial matters",
+                        "All other corporate and commercial law matters",
+                    ]}
+                    listCol2={[
+                        "Intellectual property licensing and agreements",
+                        "Joint ventures and strategic alliances",
+                        "Securities law compliance",
+                        "Insolvency and bankruptcy proceedings",
+                        "Dispute resolution in commercial matters",
+                    ]}
+                    paragraphs={[
+                        "This practice area relates to corporate and commercial law matters for companies, firms, startups, business entities, investors, and commercial organisations. Corporate work may involve incorporation, statutory compliance, contracts, business arrangements, restructuring, investment documentation, and regulatory filings.",
+                        "The work may include company incorporation, corporate compliance, drafting and vetting of commercial contracts, mergers and acquisitions, joint ventures, startup advisory, shareholder agreements, foreign investment matters, FDI compliance, and related business documentation.",
+                        "Company incorporation is governed by the Companies Act, 2013, and rules issued by the Ministry of Corporate Affairs. The process generally involves preparation and filing of incorporation documents, obtaining certificates, maintaining statutory records, and complying with post-incorporation obligations.",
+                        "Commercial contracts may include service agreements, supply agreements, consultancy agreements, employment contracts, confidentiality agreements, licensing agreements, investment documents, distribution agreements, and partnership or collaboration documents. Such contracts generally address obligations, consideration, timelines, termination, liability, indemnity, governing law, and dispute resolution.",
+                        "Mergers, acquisitions, and joint ventures may involve due diligence, regulatory review, transaction documents, approvals, disclosures, and compliance with applicable corporate and financial regulations. Startup-related work may include founder arrangements, investment agreements, employment documentation, intellectual property assignment, and compliance requirements.",
+                        "Foreign investment matters may require review of FDI policy, FEMA regulations, sectoral limits, reporting requirements, and approval conditions where applicable.",
+                    ]}
+                />
+                <PracticeAreaCard
+                    number={"06"}
+                    title={"Taxation & GST"}
+                    listCol1={[
+                        "GST registration",
+                        "GST filing and compliance",
+                        "Income tax return-related assistance",
+                        "Income tax assessment matters",
+                        "All other taxation and GST matters",
+                    ]}
+                    listCol2={[
+                        "Tax appeals before CIT(A)",
+                        "Tax appeals before ITAT",
+                        "GST audit matters",
+                        "Replies to GST show-cause notices",
+                        "Tax planning and advisory",
+                    ]}
+                    paragraphs={[
+                        "This practice area covers taxation and GST matters before tax authorities, appellate authorities, and tribunals. Tax matters may arise from registration, filing, assessment, audit, notices, demand orders, penalties, refunds, appeals, and advisory on tax implications.\n" +
+                        "The work may include GST registration, GST compliance, filing-related assistance, income tax assessment matters, tax appeals before the Commissioner of Income Tax Appeals, appeals before the Income Tax Appellate Tribunal, GST audits, replies to show-cause notices, and tax advisory.\n",
+                        "GST matters are governed by the Central Goods and Services Tax Act, 2017, State GST laws, Integrated GST provisions, rules, circulars, and notifications. Issues may relate to registration, classification, input tax credit, invoicing, returns, e-way bills, assessment, audit, show-cause notices, demand, interest, and penalty.",
+                        "Income tax matters are governed by the Income Tax Act, 1961, and related rules. Proceedings may involve scrutiny assessment, reassessment, penalty proceedings, refund claims, demand notices, rectification applications, and appeals.",
+                        "Replies to tax notices generally require examination of financial records, returns, invoices, ledgers, contracts, bank statements, and statutory provisions. Appeals require drafting of grounds, statement of facts, compilation of documents, and representation before the appropriate authority or tribunal.\n" +
+                        "Tax advisory may involve review of transaction structure, compliance obligations, documentation, and statutory consequences under applicable tax laws.\n",
+                    ]}
+                />
+
+                <PracticeAreaCard
+                    number={"07"}
+                    title={"Intellectual Property Rights"}
+                    listCol1={[
+                        "Trademark registration and protection",
+                        "Patent filing and prosecution",
+                        "Copyright registration and enforcement",
+                        "Domain name registration and disputes",
+                        "Trade secret protection"
+                    ]}
+                    listCol2={[
+                        "Licensing and assignment of IP rights",
+                        "IP due diligence and valuation",
+                        "Infringement litigation",
+                        "Anti-counterfeiting measures",
+                        "IP strategy and portfolio management"
+                    ]}
+                    paragraphs={[
+                        "This practice area relates to intellectual property rights, including trademarks, copyrights, patents, infringement proceedings, and intellectual property agreements. Intellectual property matters may involve registration, prosecution, opposition, enforcement, licensing, assignment, and dispute resolution.\n",
+                        "The work may include trademark search, trademark application, registration, replies to examination reports, opposition matters, copyright registration, patent filing and prosecution, infringement matters, enforcement proceedings, IP licensing agreements, assignment documents, and related filings.\n",
+                        "Trademark law is governed by the Trade Marks Act, 1999. Trademark registration may involve search, application, examination, objection, reply, advertisement, opposition, hearing, and registration. Trademark disputes may involve similarity of marks, prior use, passing off, infringement, or unauthorised use.\n",
+                        "Copyright law is governed by the Copyright Act, 1957. Copyright matters may relate to literary, artistic, musical, dramatic, cinematographic, sound recording, software, or other protected works. Registration may support proof of ownership and enforcement.\n",
+                        "Patent matters are governed by the Patents Act, 1970. Patent filing generally involves technical disclosure, specification, claims, examination, reply to objections, hearing, and grant where requirements are satisfied.\n",
+                        "Infringement matters may involve legal notices, civil proceedings, injunctions, damages, account of profits, or settlement documentation. IP agreements may include licensing agreements, assignment deeds, confidentiality agreements, technology transfer agreements, and collaboration documents.\n",
+                    ]}
+                />
+
+                <PracticeAreaCard
+                    number={"08"}
+                    title={"Banking, Finance & Recovery"}
+                    listCol1={[
+                        "Debt recovery suits",
+                        "SARFAESI proceedings",
+                        "Debt Recovery Tribunal matters",
+                        "Loan documentation",
+                        "Banking compliance matters",
+                    ]}
+                    listCol2={[
+                        "Cheque bounce cases under Section 138 NI Act",
+                        "Recovery proceedings for financial institutions",
+                        "Borrower and lender dispute matters",
+                        "All other banking, finance, and recovery matters",
+                        "Banking disputes",
+                    ]}
+                    paragraphs={[
+                        "This practice area covers banking, finance, and recovery matters before civil courts, Debt Recovery Tribunals, and other appropriate forums. Financial disputes may involve loan defaults, recovery claims, secured assets, banking transactions, dishonoured cheques, borrower disputes, lender disputes, and documentation issues.\n",
+                        "The work may include debt recovery suits, SARFAESI proceedings, Debt Recovery Tribunal matters, loan documentation, banking compliance, banking disputes, cheque dishonour cases under Section 138 of the Negotiable Instruments Act, recovery proceedings, and borrower-lender disputes.\n",
+                        "Debt recovery matters may involve examination of loan agreements, account statements, sanction letters, security documents, guarantees, demand notices, repayment records, and correspondence between parties. Proceedings may be initiated before civil courts or tribunals depending on the nature of the claim and applicable law.\n",
+                        "SARFAESI matters are governed by the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002. Such proceedings may involve demand notice, possession notice, measures by secured creditors, and applications before the Debt Recovery Tribunal.\n",
+                        "Cheque bounce matters under Section 138 of the Negotiable Instruments Act require compliance with statutory notice, limitation period, filing of complaint, evidence, and trial procedure.\n" +
+                        "Loan documentation may include drafting or review of loan agreements, guarantee deeds, mortgage documents, hypothecation documents, security documents, repayment terms, and default clauses.\n",
+                    ]}
+                />
+
+                <PracticeAreaCard
+                    number={"09"}
+                    title={"Cyber Crime & Technology Law"}
+                    listCol1={[
+                        "Cyber crime litigation",
+                        "Data protection and privacy law",
+                        "Intellectual property rights",
+                        "Technology law and regulation",
+                        "All other cyber crime and technology law matters",
+                    ]}
+                    listCol2={[
+                        "Digital forensics and evidence collection",
+                        "Cybersecurity compliance",
+                        "Online dispute resolution",
+                        "E-commerce law",
+                        "Artificial intelligence and automation law",
+                    ]}
+                    paragraphs={[
+                        "This practice area relates to cyber crime and technology law matters before appropriate courts, authorities, and forums. Cyber matters may involve digital fraud, unauthorised access, online abuse, defamation, identity misuse, data protection, information technology offences, and electronic evidence.\n",
+                        "The work may include cyber fraud complaints, hacking and unauthorised access matters, online defamation, online harassment, data privacy advisory, Digital Personal Data Protection Act compliance, Information Technology Act offences, digital evidence handling, and cyber complaint drafting.\n",
+                        "Cyber fraud may involve phishing, unauthorised transactions, fake profiles, identity theft, online financial fraud, investment scams, impersonation, misuse of personal information, or unauthorised access to accounts and systems. Such matters may require prompt preservation of digital records and filing of complaints before appropriate authorities.\n",
+                        "Online defamation or abuse may involve social media posts, electronic messages, threats, harassment, publication of false material, or reputational harm through digital platforms. Remedies may depend on whether the matter gives rise to civil, criminal, or platform-based action.\n",
+                        "Digital evidence may include screenshots, emails, chats, call records, metadata, transaction records, server information, device records, or electronic documents. Admissibility may require compliance with applicable evidentiary requirements, including certification where required.\n",
+                        "Data protection matters may involve consent, collection, processing, storage, transfer, breach reporting, privacy notices, and obligations under applicable data protection law.\n",
+                    ]}
+
+                />
+
+                <PracticeAreaCard
+                    number="03"
+                    title="Consumer Protection Law"
+                    listCol1={["Filing consumer complaints", "Defending consumer disputes","Defective goods cases","Deficient service matters","Unfair trade practice disputes"]}
+                    listCol2={["Misleading advertisement cases", "Product liability matters","Defective goods cases","Consumer appeals before higher commissions","All other consumer protection law matters"]}
+                    paragraphs={[
+                        "This practice area covers consumer protection matters before District, State, and National Consumer Disputes Redressal Commissions. Consumer disputes may arise from defective goods, deficient services, unfair trade practices, misleading advertisements, product liability, refund claims, compensation claims, or disputes between consumers and service providers.",
+                        "The work may include filing and defending consumer complaints, defective goods cases, deficient service matters, unfair trade practice disputes, misleading advertisement cases, product liability matters, refund and compensation claims, appeals before higher commissions, and related proceedings.",
+                        "Consumer disputes are governed by the Consumer Protection Act, 2019, and related rules. A complaint may seek refund, replacement, compensation, removal of defect, correction of deficiency, discontinuance of unfair practice, or other relief available under law.\n" +
+                        "Proceedings generally involve filing of complaint, reply by the opposite party, submission of documents, evidence by affidavit, arguments, and final order. Appeals may be filed before higher commissions within the prescribed period.\n",
+                        "Relevant documents may include invoices, receipts, warranty cards, service records, correspondence, photographs, expert reports, payment records, policy documents, contracts, and notices. Jurisdiction depends on the value of goods or services, compensation claimed, territorial jurisdiction, and applicable statutory provisions.\n",
+                        "Consumer matters may involve sectors such as banking, insurance, real estate, medical services, education, e-commerce, transport, utilities, defective products, or other services.",
+                    ]}
                 />
 
             </div>
