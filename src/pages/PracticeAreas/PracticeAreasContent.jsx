@@ -359,8 +359,8 @@ const PracticeAreasContent = () => {
                 <PracticeAreaCard
                     number="03"
                     title="Consumer Protection Law"
-                    listCol1={["Filing consumer complaints", "Defending consumer disputes","Defective goods cases","Deficient service matters","Unfair trade practice disputes"]}
-                    listCol2={["Misleading advertisement cases", "Product liability matters","Defective goods cases","Consumer appeals before higher commissions","All other consumer protection law matters"]}
+                    listCol1={["Filing consumer complaints", "Defending consumer disputes", "Defective goods cases", "Deficient service matters", "Unfair trade practice disputes"]}
+                    listCol2={["Misleading advertisement cases", "Product liability matters", "Defective goods cases", "Consumer appeals before higher commissions", "All other consumer protection law matters"]}
                     paragraphs={[
                         "This practice area covers consumer protection matters before District, State, and National Consumer Disputes Redressal Commissions. Consumer disputes may arise from defective goods, deficient services, unfair trade practices, misleading advertisements, product liability, refund claims, compensation claims, or disputes between consumers and service providers.",
                         "The work may include filing and defending consumer complaints, defective goods cases, deficient service matters, unfair trade practice disputes, misleading advertisement cases, product liability matters, refund and compensation claims, appeals before higher commissions, and related proceedings.",
@@ -395,6 +395,35 @@ const PracticeAreasContent = () => {
                         "Public Interest Litigation may be filed in matters involving public injury, public duty, constitutional concerns, or issues affecting a larger section of society. Such petitions require proper facts, supporting documents, legal grounds, and bona fide public interest.\n" +
                         "Constitutional matters may involve examination of maintainability, alternative remedy, locus standi, delay, jurisdiction, statutory framework, administrative record, and applicable constitutional provisions.\n",
                         "Proceedings may require drafting of writ petitions, affidavits, rejoinders, interim applications, written submissions, and compilation of supporting documents.",
+                    ]}
+                />
+
+                <PracticeAreaCard
+                    number={"05"}
+                    title={"Service & Employment Law"}
+                    listCol1={[
+                        "Government service matters",
+                        "Public sector employment disputes",
+                        "Disciplinary action cases",
+                        "Promotion-related disputes",
+                        "Pay fixation matters",
+                        "Retirement benefit claims",
+                    ]}
+                    listCol2={[
+                        "Pension-related disputes",
+                        "Industrial disputes",
+                        "Labour law compliance",
+                        "Employer-employee dispute matters",
+                        "All other service and employment law matters",
+                    ]}
+                    paragraphs={[
+                        "This practice area relates to service and employment law matters before administrative tribunals, labour courts, civil courts, the High Court, and other appropriate forums. Employment and service disputes may arise between employees and employers, government servants and departments, public sector employees and authorities, or workmen and management.",
+                        "The work may include government service matters, public sector employment disputes, disciplinary action cases, promotion disputes, pay fixation, retirement benefits, pension disputes, industrial disputes, labour law compliance, employer-employee disputes, and related proceedings.",
+                        "Government service matters may involve appointment, promotion, seniority, transfer, suspension, disciplinary inquiry, dismissal, removal, compulsory retirement, pay scale, pension, gratuity, and other service benefits. Such matters may be governed by service rules, statutory regulations, administrative instructions, and constitutional principles.",
+                        "Labour and employment disputes may involve termination, retrenchment, non-payment of wages, workplace misconduct, employment contracts, disciplinary action, industrial disputes, standing orders, and compliance with labour laws.\n" +
+                        "Proceedings may require drafting of representations, applications, replies, statements of claim, written statements, affidavits, evidence, appeals, or writ petitions depending on the forum and nature of the dispute.\n",
+                        "Labour and employment disputes may involve termination, retrenchment, non-payment of wages, workplace misconduct, employment contracts, disciplinary action, industrial disputes, standing orders, and compliance with labour laws.\n" +
+                        "Proceedings may require drafting of representations, applications, replies, statements of claim, written statements, affidavits, evidence, appeals, or writ petitions depending on the forum and nature of the dispute.\n",
                     ]}
                 />
             </div>
