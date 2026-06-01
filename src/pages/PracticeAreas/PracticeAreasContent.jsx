@@ -371,6 +371,32 @@ const PracticeAreasContent = () => {
                     ]}
                 />
 
+                <PracticeAreaCard
+                    number="04"
+                    title="Constitutional Law & Public Interest Litigation"
+                    listCol1={[
+                        "Writ petitions before the High Court",
+                        "Writ petitions before the Supreme Court",
+                        "Public Interest Litigation matters",
+                        "Enforcement of fundamental rights",
+                        "Challenge to government actions",
+                    ]}
+                    listCol2={[
+                        "Challenge to validity of laws",
+                        "Administrative law matters",
+                        "Petitions seeking directions against public authorities",
+                        "Filing of affidavits and constitutional pleadings",
+                        "All other constitutional law and PIL matters",
+                    ]}
+                    paragraphs={[
+                        "This practice area relates to constitutional law and Public Interest Litigation before the High Court and the Supreme Court of India. Constitutional matters may involve fundamental rights, legal rights, public duties, administrative actions, statutory powers, government decisions, or issues affecting the public.",
+                        "The work may include writ petitions, Public Interest Litigation, enforcement of fundamental rights, challenges to government actions, challenges to validity of laws, administrative law matters, petitions seeking directions against public authorities, affidavits, and constitutional pleadings.",
+                        "Writ petitions before the High Court are generally filed under Article 226 of the Constitution of India. Petitions before the Supreme Court may be filed under Article 32 in matters involving enforcement of fundamental rights. Writ remedies may include mandamus, certiorari, prohibition, habeas corpus, or quo warranto depending on the facts and relief sought.",
+                        "Public Interest Litigation may be filed in matters involving public injury, public duty, constitutional concerns, or issues affecting a larger section of society. Such petitions require proper facts, supporting documents, legal grounds, and bona fide public interest.\n" +
+                        "Constitutional matters may involve examination of maintainability, alternative remedy, locus standi, delay, jurisdiction, statutory framework, administrative record, and applicable constitutional provisions.\n",
+                        "Proceedings may require drafting of writ petitions, affidavits, rejoinders, interim applications, written submissions, and compilation of supporting documents.",
+                    ]}
+                />
             </div>
         </section>
     );
