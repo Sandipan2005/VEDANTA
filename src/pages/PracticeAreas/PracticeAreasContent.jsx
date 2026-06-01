@@ -426,6 +426,36 @@ const PracticeAreasContent = () => {
                         "Proceedings may require drafting of representations, applications, replies, statements of claim, written statements, affidavits, evidence, appeals, or writ petitions depending on the forum and nature of the dispute.\n",
                     ]}
                 />
+
+                <PracticeAreaCard
+                    number={"06"}
+                    title={"Legal Drafting, Notices & Petition Preparation"}
+                    listCol1={[
+                        "Legal notices drafting",
+                        "Drafting replies to legal notices",
+                        "Petition preparation",
+                        "Preparation of plaints and written statements",
+                        "Drafting affidavits and applications",
+                        "Drafting complaints and representations",
+                    ]}
+                    listCol2={[
+                        "Drafting writ petitions",
+                        "Drafting agreements, deeds, and undertakings",
+                        "Drafting settlement documents",
+                        "Review and vetting of legal documents",
+                        "All other types of legal drafting matters",
+                        "Drafting appeals and revisions",
+                    ]}
+                    paragraphs={[
+                        "This practice area covers legal drafting, notices, petition preparation, and review of legal documents. Drafting may be required in civil, criminal, family, property, corporate, service, consumer, tax, banking, constitutional, RTI, and other legal matters.\n" +
+                        "The work may include drafting of legal notices, replies to notices, petitions, plaints, written statements, affidavits, applications, complaints, representations, appeals, revisions, writ petitions, agreements, deeds, undertakings, settlement documents, and review or vetting of legal documents.\n",
+                        "This practice area covers legal drafting, notices, petition preparation, and review of legal documents. Drafting may be required in civil, criminal, family, property, corporate, service, consumer, tax, banking, constitutional, RTI, and other legal matters.\n" +
+                        "The work may include drafting of legal notices, replies to notices, petitions, plaints, written statements, affidavits, applications, complaints, representations, appeals, revisions, writ petitions, agreements, deeds, undertakings, settlement documents, and review or vetting of legal documents.\n",
+                        "Petitions and pleadings may require statement of facts, jurisdiction, limitation, cause of action, grounds, interim reliefs, final reliefs, verification, affidavits, and supporting documents. Drafting requirements vary depending on the court, tribunal, authority, or forum before which the document is filed.",
+                        "Agreements and deeds may require identification of parties, subject matter, obligations, consideration, duration, termination, dispute resolution, governing law, execution clauses, stamp duty, and registration requirements where applicable.\n" +
+                        "Document review may involve examination of legal risks, unclear clauses, missing terms, procedural defects, or inconsistency with applicable law.\n",
+                    ]}
+                />
             </div>
         </section>
     );
