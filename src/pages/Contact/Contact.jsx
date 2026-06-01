@@ -6,7 +6,7 @@ import Footer from "../../components/layout/Footer";
 
 export default function Contact() {
   return (
-    <div className="  text-gray-800 bg-[#FAFAFA] min-h-screen flex flex-col">
+    <div className="  text-[#e0e0e0] bg-[#303030] min-h-screen flex flex-col">
       {/* 1. HERO SECTION */}
       <ContactHero />
 

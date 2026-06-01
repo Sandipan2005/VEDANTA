@@ -8,12 +8,12 @@ const CheckIcon = () => (
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="shrink-0 text-black"
+        className="shrink-0 text-white"
     >
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <path
             d="M8 12.5L11 15.5L16 9"
-            stroke="white"
+            stroke="black"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -50,15 +50,15 @@ const PracticeAreaCard = ({
 
             {/* Card Content */}
             <div
-                className="relative z-10 bg-white p-8 md:p-12 lg:pt-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)] rounded-sm border border-gray-50 flex flex-col gap-6">
+                className="relative z-10 bg-[#161616] p-8 md:p-12 lg:pt-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)] rounded-sm border border-gray-50 flex flex-col gap-6">
                 <h3
-                    className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6  rounded-sm p-2"
+                    className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6  rounded-sm p-2 text-[#e0e0e0]"
                     // style={{ textShadow: "0px 4px 30px #303030 " }}
 
                 >
                     {/*0px 2px 5px #303030,*/}
                     {title}
-                    <div className="absolute left-1/4 right-1/4 h-0.5 bg-[#c4a661] -bottom-3"></div>
+                    <div className="absolute left-1/4 right-1/4 h-0.5 bg-[#c4a661]  -bottom-3"></div>
                 </h3>
 
                 {(listCol1 || listCol2) && (
@@ -69,7 +69,7 @@ const PracticeAreaCard = ({
                                 {listCol1.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="flex items-start gap-3 text-gray-800 font-medium"
+                                        className="flex items-start gap-3 text-[#e0e0e0] font-medium"
                                     >
                                         <div className="mt-1">
                                             <CheckIcon/>
@@ -84,7 +84,7 @@ const PracticeAreaCard = ({
                                 {listCol2.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="flex items-start gap-3 text-gray-800 font-medium"
+                                        className="flex items-start gap-3 text-[#e0e0e0] font-medium"
                                     >
                                         <div className="mt-1">
                                             <CheckIcon/>
@@ -97,7 +97,7 @@ const PracticeAreaCard = ({
                     </div>
                 )}
 
-                <div className="space-y-0 text-gray-600 text-sm md:text-base leading-relaxed text-justify">
+                <div className="space-y-0 text-[#e0e0e0] text-sm md:text-base leading-relaxed text-justify">
                     {paragraphs.map((para, idx) => (
                         <p key={idx}>{para}</p>
                     ))}
@@ -109,14 +109,14 @@ const PracticeAreaCard = ({
 
 const PracticeAreasContent = () => {
     return (
-        <section className="py-16 md:py-10 px-4 md:px-8 bg-white relative overflow-hidden">
+        <section className="py-16 md:py-10 px-4 md:px-8 bg-[#303030] relative overflow-hidden">
             {/* Title Section */}
             <div className="text-center mb-10 md:mb-10">
-                <p className="text-gray-600 mb-4 tracking-wide">
+                <p className="text-[#e0e0e0] mb-4 tracking-wide">
                     How Can We Help You ?
                 </p>
-                <h2 className="text-3xl md:text-5xl  text-[#303030] font-bold uppercase tracking-wider mb-6">
-                    What can we <span className="text-[#303030]">help you</span> with
+                <h2 className="text-3xl md:text-5xl  text-[#e0e0e0] font-bold uppercase tracking-wider mb-6">
+                    What can we <span className="text-[#e0e0e0]">help you</span> with
                 </h2>
                 <div className="w-20 md:w-32 h-0.5 bg-[#c4a661] mx-auto"></div>
             </div>

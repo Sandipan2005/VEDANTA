@@ -2,9 +2,9 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
 
-const ContactFormSection = () => {
+const TeamJoinForm = () => {
   return (
-    <section className="w-full bg-[#FAFAFA] pb-16 py-1 px-1 md:px-1 mt-0 ">
+    <section className="w-full bg-[#303030] pb-16 py-1 px-1 md:px-1 mt-0 ">
       <div className="w-full max-w-250 mx-auto bg-white shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50/50 p-8 md:p-14">
         <form className="space-y-6 md:space-y-8  ">
           {/* Name Field */}
@@ -101,4 +101,4 @@ const ContactFormSection = () => {
   );
 };
 
-export default ContactFormSection;
+export default TeamJoinForm;

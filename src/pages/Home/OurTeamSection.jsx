@@ -13,7 +13,7 @@ const teamMembers = [
   { id: 3, name: "D.C. Roy", imageSrc: CoFounder2 },
   { id: 4, name: "J.U. Khadim", imageSrc: CoFounder3 },
   { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
-  // { id: 6, name: "A. Sharma", imageSrc: founder3 },
+  { id: 6, name: "Name", imageSrc: null },
   // { id: 7, name: "R. Chatterjee", imageSrc: founder1 },
   // { id: 8, name: "P. Banerjee", imageSrc: founder2 },
   // { id: 9, name: "M. Das", imageSrc: founder3 },
@@ -22,7 +22,7 @@ const teamMembers = [
 const OurTeamSection = () => {
   return (
       <section
-          className="relative w-full bg-[#FAFAFA] pt-16 pb-13.5 md:pt-5 md:pb-2.5 px-4 sm:px-8 md:px-12 xl:px-24 overflow-hidden"
+          className="relative w-full bg-[#303030] pt-16 pb-13.5 md:pt-5 md:pb-2.5 px-4 sm:px-8 md:px-12 xl:px-24 overflow-hidden"
           aria-labelledby="team-heading"
       >
         {/* Top Header */}
@@ -30,9 +30,9 @@ const OurTeamSection = () => {
           <div className="text-center relative">
             <h2
                 id="team-heading"
-                className="text-[32px] sm:text-[40px] md:text-[48px] tracking-normal uppercase leading-none text-[#303030] font-extrabold"
+                className="text-[32px] sm:text-[40px] md:text-[48px] tracking-normal uppercase leading-none text-[#e0e0e0] font-extrabold"
             >
-              CO-FOUNDERS & <span className="text-[#303030] font-normal">MANAGING PARTNERS</span>
+              CO-FOUNDERS & <span className="text-[#e0e0e0] font-normal">MANAGING PARTNERS</span>
             </h2>
             <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>
           </div>
@@ -49,7 +49,7 @@ const OurTeamSection = () => {
                     <div className="w-full rounded-4xl aspect-3/4 bg-gray-200 overflow-hidden relative border border-gray-200 shadow-sm transition-shadow duration-300 group-hover:shadow-md">
                       <img
                           src={member.imageSrc}
-                          alt={member.name}
+                          // alt={member.name}
                           className="w-full h-full object-cover object-top filter brightness-95 contrast-105 group-hover:scale-105 transition-transform duration-500"
                           loading="lazy"
                       />
@@ -58,7 +58,7 @@ const OurTeamSection = () => {
                     </div>
                     {/* Name Label */}
                     <div className="mt-3 text-center">
-                      <h4 className="text-[15px] md:text-[17px] font-bold tracking-wide text-gray-900 font-serif">
+                      <h4 className="text-[15px] md:text-[17px] font-bold tracking-wide text-[#e0e0e0] font-serif">
                         {member.name}
                       </h4>
                     </div>
@@ -75,7 +75,7 @@ const OurTeamSection = () => {
               </h3>
               <div className="w-12 h-0.75 bg-[#C4A661] mb-6"></div>
 
-              <div className="space-y-4 text-gray-300 text-[14.5px] md:text-[18px] lg:text-[15px]  leading-[1.6]  font-light tracking-normal text-justify ">
+              <div className="space-y-4 text-[#e0e0e0] text-[14.5px] md:text-[18px] lg:text-[15px]  leading-[1.6]  font-light tracking-normal text-justify ">
                 <p>
                   At Vedanta Legal Associates, we pride ourselves on having a strong, unified
                   team of lawyers, junior associates, law clerks, and support staff working together

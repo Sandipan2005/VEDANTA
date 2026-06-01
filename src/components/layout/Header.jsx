@@ -9,15 +9,17 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
+
     { name: "Home", path: "/" },
     { name: "Our Team", path: "/team" },
     { name: "Practice Area", path: "/practice-areas" },
+    { name: "Join Our Team", path: "/join-our-team" },
     { name: "Contact", path: "/contact" },
   ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 md:py-2 text-white bg-black backdrop-blur-md border-b border-[#c4a661]/20">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between relative">
         {/* Logo Placeholder */}
         <div className="flex items-center space-x-2 md:space-x-3">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border-2 border-gray-500 flex items-center justify-center relative overflow-hidden">
@@ -27,13 +29,21 @@ const Header = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <h1 className="text-xl md:text-2xl font-bold tracking-wider  ">
-            VEDANTA
-          </h1>
+          <div className="flex flex-col">
+            <h1 className="text-xl md:text-2xl font-bold tracking-wider">
+              Vedanta Legal Associates
+            </h1>
+            <div className="flex items-center space-x-2 mt-0.5">
+              <span className="w-4 md:w-6 h-px bg-gray-400"></span>
+              <span className="text-xs md:text-sm text-gray-400 font-medium tracking-widest">
+                A Law Firm
+              </span>
+            </div>
+          </div>
         </div>
 
         {/* Navigation Desktop */}
-        <nav className="hidden md:flex items-center space-x-8 text-sm">
+        <nav className="hidden md:flex items-center space-x-8 text-sm ">
           {navLinks.map((link) => (
             <Link
               key={link.path}
@@ -45,7 +55,7 @@ const Header = () => {
               }}
               className={`transition-colors duration-300  whitespace-nowrap ${
                 path === link.path
-                  ? "bg-[#2a2415] text-white px-4 py-2 border-b-2 border-[#c4a661]"
+                  ? "text-white px-4 py-2 border-b-2 border-[#c4a661]"
                   : "text-gray-300"
               }`}
             >

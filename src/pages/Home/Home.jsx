@@ -4,7 +4,7 @@ import Footer from "../../components/layout/Footer";
 import FounderSection from "./FounderSection";
 import Header from "../../components/layout/Header";
 import AboutSection from "./AboutSection";
-import ContactFormSection from "./ContactFormSection";
+import TeamJoinForm from "../Team/TeamJoinForm.jsx";
 import OurServicesSection from "./OurServicesSection";
 import OurTeamSection from "./OurTeamSection";
 import ClientTestimonialsSection from "./ClientTestimonialsSection";
@@ -14,7 +14,7 @@ import ReachUsSection from "./ReachUsSection.jsx";
 
 export default function Home() {
   return (
-    <div className="  text-gray-800 bg-[#FAFAFA]">
+    <div className="  text-gray-800 bg-[#303030]">
       {/* HEADER & HERO SECTION */}
       <div className="relative bg-black">
         <Header />
@@ -24,7 +24,7 @@ export default function Home() {
       {/* 2. ABOUT US */}
       <AboutSection />
 
-      {/*<ContactFormSection />*/}
+      {/*<TeamJoinForm />*/}
         <SocialCommitmentSection />
         <OurTeamSection />
 

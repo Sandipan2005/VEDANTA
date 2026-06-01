@@ -36,7 +36,7 @@ const OurServicesSection = () => {
 
   return (
       <section
-          className="relative w-full bg-[#FAFAFA] py-16 md:pt-15 md:pb-5 px-5 sm:px-8 md:px-12 xl:px-24"
+          className="relative w-full bg-[#303030] py-16 md:pt-15 md:pb-5 px-5 sm:px-8 md:px-12 xl:px-24"
           aria-labelledby="services-heading"
       >
         {/* JSON-LD Schema for rich snippet and LLM context extraction */}
@@ -49,19 +49,19 @@ const OurServicesSection = () => {
 
           {/* Left Column: Statement Box with Oval Corners */}
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <div className="bg-white rounded-[40px] md:rounded-[50px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-10 md:p-10 h-auto flex flex-col justify-center relative overflow-hidden">
+            <div className="bg-[#161616] rounded-[40px] md:rounded-[50px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-10 md:p-10 h-auto flex flex-col justify-center relative overflow-hidden">
 
               {/* Decorative Gold Accent */}
               <div className="absolute top-0 left-0 w-full h-1.5 bg-[#C4A661]"></div>
 
               <h2
                   id="services-heading"
-                  className="text-3xl md:text-4xl font-extrabold tracking-wide text-[#303030] mb-6 text-center lg:text-left"
+                  className="text-3xl md:text-4xl font-extrabold tracking-wide text-[#e0e0e0] mb-6 text-center lg:text-left"
               >
                 Practice Areas
               </h2>
 
-              <p className="text-gray-700 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify mb-10">
+              <p className="text-[#e0e0e0] text-[15px] md:text-[20px] leading-[1.8] font-light text-justify mb-10">
                 Vedanta Legal Associates assists a wide spectrum of clients,
                 including traditional organisations and modern enterprises. We offer
                 legal services across multiple sectors through our focused practice areas.
@@ -71,10 +71,10 @@ const OurServicesSection = () => {
                 {/* Note: Update the href to point to your actual routing path if different */}
                 <a
                     href="/practice-areas"
-                    className="bg-black text-white px-8 py-3.5 text-sm md:text-[15px] flex items-center justify-center gap-3 hover:bg-[#C4A661] transition-colors duration-300 group font-bold tracking-widest uppercase rounded-full shadow-md"
+                    className="bg-[#C4A661] text-black px-8 py-3.5 text-sm md:text-[15px] flex items-center justify-center gap-3 hover:bg-[#b09557] transition-colors duration-300 group font-bold tracking-widest uppercase rounded-full shadow-md"
                 >
                   View Practice Areas
-                  <span className="bg-white/10 rounded-full p-1 flex items-center justify-center text-white group-hover:translate-x-1 transition-transform">
+                  <span className="bg-black/10 rounded-full p-1 flex items-center justify-center text-black group-hover:translate-x-1 transition-transform">
                   <ArrowUpRight size={16} strokeWidth={2.5} />
                 </span>
                 </a>

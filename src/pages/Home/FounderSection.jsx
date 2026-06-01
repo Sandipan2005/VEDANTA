@@ -115,17 +115,17 @@ const FounderSection = () => {
                 </div>
 
                 {/* Slogan */}
-                <div
-                    className="text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px] tracking-wider sm:tracking-widest md:tracking-widest font-extrabold leading-[1.3] mt-2 lg:mt-4 text-center lg:text-left">
-                    <div>
-                        <span className="text-[#C4A661]">SMART</span>{" "}
-                        <span className="text-white">LAW ..</span>
-                    </div>
-                    <div className="mt-1 md:mt-2">
-                        <span className="text-white">BETTER</span>{" "}
-                        <span className="text-[#C4A661]">OUTCOMES ..</span>
-                    </div>
-                </div>
+                {/*<div*/}
+                {/*    className="text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px] tracking-wider sm:tracking-widest md:tracking-widest font-extrabold leading-[1.3] mt-2 lg:mt-4 text-center lg:text-left">*/}
+                {/*    <div>*/}
+                {/*        <span className="text-[#C4A661]">SMART</span>{" "}*/}
+                {/*        <span className="text-white">LAW ..</span>*/}
+                {/*    </div>*/}
+                {/*    <div className="mt-1 md:mt-2">*/}
+                {/*        <span className="text-white">BETTER</span>{" "}*/}
+                {/*        <span className="text-[#C4A661]">OUTCOMES ..</span>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
 
         </article>

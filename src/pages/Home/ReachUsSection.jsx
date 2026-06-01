@@ -17,7 +17,7 @@ const ReachUsSection = () => {
 
     return (
         <section
-            className="relative w-full bg-[#FAFAFA] py-16 md:py-5 px-5 sm:px-8 md:px-12 xl:px-24"
+            className="relative w-full bg-[#303030] py-16 md:py-5 px-5 sm:px-8 md:px-12 xl:px-24"
             aria-labelledby="reach-us-heading"
         >
             {/* JSON-LD Schema for rich snippet and LLM context extraction */}
@@ -31,9 +31,9 @@ const ReachUsSection = () => {
                 <div className="relative inline-block text-center">
                     <h2
                         id="reach-us-heading"
-                        className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-[#303030]"
+                        className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-[#e0e0e0]"
                     >
-                        REACH <span className="text-[#303030]">US</span>
+                        REACH <span className="text-[#e0e0e0]">US</span>
                     </h2>
                     <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>
                 </div>
@@ -44,8 +44,8 @@ const ReachUsSection = () => {
 
                 {/* Left Column: Statement Box (Sticky on Desktop) */}
                 <div className="w-full lg:w-5/12 lg:sticky lg:top-24">
-                    <div className="bg-white rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-12">
-                        <div className="space-y-6 text-gray-800 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify ">
+                    <div className="bg-[#161616] rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-12">
+                        <div className="space-y-6 text-[#e0e0e0] text-[15px] md:text-[20px] leading-[1.8] font-light text-justify ">
                             <p>
                                 Thank you for reaching out to Vedanta Legal Associates.
 

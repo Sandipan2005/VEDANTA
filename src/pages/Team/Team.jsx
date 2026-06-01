@@ -4,7 +4,7 @@ import TeamHero from "./TeamHero";
 import OurFounders from "./OurFounders";
 import OurCoFounder from "./OurCoFounder";
 import OurAdvisoryAssociate from "./OurAdvisoryAssociate";
-import ContactFormSection from "../Home/ContactFormSection";
+import TeamJoinForm from "./TeamJoinForm.jsx";
 import Footer from "../../components/layout/Footer";
 
 const Team = () => {
@@ -14,7 +14,7 @@ const Team = () => {
       <OurFounders />
       <OurCoFounder />
       <OurAdvisoryAssociate />
-      <ContactFormSection />
+      <TeamJoinForm />
       <Footer />
     </div>
   );

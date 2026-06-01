@@ -157,13 +157,13 @@ const associateData = [
 // --- Subcomponents ---
 
 const SectionHeader = ({ prefix, highlight }) => (
-    <div className="text-center mb-15 flex flex-col items-center">
+    <div className="text-center mb-10 flex flex-col items-center">
       <h2 className="text-3xl md:text-[36px] tracking-widest flex flex-wrap justify-center items-center gap-x-3 gap-y-2 ">
-        <span className="font-bold text-[#303030] uppercase">{prefix}</span>
-        <span className="font-bold text-[#303030] uppercase relative pb-1">
+        <span className="font-bold text-[#e0e0e0] uppercase">{prefix}</span>
+        <span className="font-bold text-[#e0e0e0] uppercase relative pb-1">
         {highlight}
           {/* Gold Underline */}
-          <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-[3px] bg-[#C4A661]"></span>
+          <span className="absolute bottom-0 left-1/2 -translate-x-5/2 w-16 h-[3px] bg-[#C4A661]"></span>
       </span>
       </h2>
     </div>
@@ -183,7 +183,7 @@ const TeamMemberCard = ({ name, imageSrc, state }) => (
 
       {/* Name placed in the "Read More" position with a subtle top border */}
       <div className="w-full border-t border-[#C4A661]/50 pt-3 text-center px-1">
-        <h3 className="text-[12px] md:text-[13px] font-serif font-bold text-[#0a1128] tracking-[0.15em] uppercase truncate">
+        <h3 className="text-[12px] md:text-[13px] font-serif font-bold text-[#e0e0e0] tracking-[0.15em] uppercase truncate">
           {name}
             <br/>
             {state}
@@ -196,7 +196,7 @@ const TeamMemberCard = ({ name, imageSrc, state }) => (
 
 export default function OurAdvisoryAssociate() {
   return (
-      <div className="bg-[#FAFAFA] min-h-auto py-15 px-4 sm:px-8 md:px-12 xl:px-24">
+      <div className="bg-[#303030] min-h-auto py-15 px-4 sm:px-8 md:px-12 xl:px-24">
         <div className="max-w-350 mx-auto flex flex-col gap-24">
 
           {/* Advisory Section */}
