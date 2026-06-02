@@ -49,10 +49,10 @@ const OurServicesSection = () => {
 
           {/* Left Column: Statement Box with Oval Corners */}
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <div className="bg-[#161616] rounded-[40px] md:rounded-[50px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-10 md:p-10 h-auto flex flex-col justify-center relative overflow-hidden">
+            <div className="bg-none rounded-[40px] md:rounded-[50px]  border border-none p-10 md:p-10 h-auto flex flex-col justify-center relative overflow-hidden">
 
               {/* Decorative Gold Accent */}
-              <div className="absolute top-0 left-0 w-full h-1.5 bg-[#C4A661]"></div>
+              {/*<div className="absolute top-0 left-0 w-full h-1.5 bg-[#C4A661]"></div>*/}
 
               <h2
                   id="services-heading"

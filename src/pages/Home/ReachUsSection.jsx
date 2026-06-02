@@ -45,7 +45,7 @@ const ReachUsSection = () => {
                 {/* Left Column: Statement Box (lg:Sticky on Desktop) */}
                 <div className="w-full lg:w-5/12  lg:top-24">
                     <div
-                        className="bg-[#161616] rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-12">
+                        className="bg-none rounded-[40px]  border border-none p-8 md:p-12">
                         <div
                             className="space-y-6 text-[#e0e0e0] text-[15px] md:text-[22px] leading-[1.82] font-light text-justify ">
                             <p>
@@ -67,7 +67,7 @@ const ReachUsSection = () => {
                 {/* Right Column: Comprehensive Form Box */}
                 <div className="w-full lg:w-7/12">
                     <div
-                        className="bg-white rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-8">
+                        className="bg-none rounded-[40px]  border border-none p-8 md:p-8">
                         <form
                             className="flex flex-col gap-3"
                             encType="multipart/form-data"
@@ -77,14 +77,14 @@ const ReachUsSection = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="fullName"
-                                           className="text-black font-bold text-[14px] tracking-wide mb-0">Full Name
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Full Name
                                         *</label>
                                     <input type="text" id="fullName" name="fullName" required
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
                                 <div className="flex flex-col">
                                     <label htmlFor="phone"
-                                           className="text-black font-bold text-[14px] tracking-wide mb-0">Phone Number
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Phone Number
                                         *</label>
                                     <input type="tel" id="phone" name="phone" required
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
@@ -95,29 +95,29 @@ const ReachUsSection = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="whatsapp"
-                                           className="text-black font-bold text-[14px] tracking-wide mb-0">Whatsapp
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Whatsapp
                                         Number</label>
                                     <input type="tel" id="whatsapp" name="whatsapp"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
                                 {/*<div className="flex flex-col">*/}
-                                {/*    <label htmlFor="email" className="text-black font-bold text-[14px] tracking-wide mb-0">Email ID</label>*/}
+                                {/*    <label htmlFor="email" className="text-white font-bold text-[14px] tracking-wide mb-0">Email ID</label>*/}
                                 {/*    <input type="email" id="email" name="email" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />*/}
                                 {/*</div>*/}
 
                                 <div className="flex flex-col">
                                     <label htmlFor="incidentDate"
-                                           className="text-black font-bold text-[14px] tracking-wide mb-0">Date of
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Date of
                                         Incident</label>
                                     <input type="date" id="incidentDate" name="incidentDate"
-                                           className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent text-gray-700"/>
+                                           className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent text-gray-300"/>
                                 </div>
                             </div>
 
                             {/* Address */}
                             <div className="flex flex-col">
                                 <label htmlFor="address"
-                                       className="text-black font-bold text-[14px] tracking-wide mb-0">Address</label>
+                                       className="text-white font-bold text-[14px] tracking-wide mb-0">Address</label>
                                 <input type="text" id="address" name="address"
                                        className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                             </div>
@@ -126,14 +126,14 @@ const ReachUsSection = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="jurisdiction"
-                                           className="text-black font-bold text-[14px] tracking-wide mb-0">Jurisdiction
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Jurisdiction
                                         / Place of Incident</label>
                                     <input type="text" id="jurisdiction" name="jurisdiction"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
                                 <div className="flex flex-col">
                                     <label htmlFor="incidentType"
-                                           className="text-black font-bold text-[14px] tracking-wide mb-0">Type of
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Type of
                                         Incident</label>
                                     <input type="text" id="incidentType" name="incidentType"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
@@ -159,7 +159,7 @@ const ReachUsSection = () => {
                             {/* Describe Matter */}
                             <div className="flex flex-col mt-0">
                                 <label htmlFor="matterDescription"
-                                       className="text-black font-bold text-[14px] tracking-wide mb-0">Describe Your
+                                       className="text-white font-bold text-[14px] tracking-wide mb-0">Describe Your
                                     Matter *</label>
                                 <textarea
                                     id="matterDescription"
@@ -172,10 +172,10 @@ const ReachUsSection = () => {
                             </div>
 
                             {/* File Uploads */}
-                            <div className="flex flex-col gap-3 mt-2 bg-gray-50 p-2 rounded-2xl border border-gray-100">
+                            <div className="flex flex-col gap-3 mt-2 bg-none p-2 rounded-2xl border border-gray-100">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                                     <label htmlFor="idProof"
-                                           className="text-black font-bold text-[14px] tracking-wide flex items-center gap-2">
+                                           className="text-white font-bold text-[14px] tracking-wide flex items-center gap-2">
                                         <Upload size={16} className="text-[#a08552]"/> Attach ID Proof *
                                     </label>
                                     <input
@@ -183,13 +183,13 @@ const ReachUsSection = () => {
                                         id="idProof"
                                         name="idProof"
                                         required
-                                        className="text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#a08552]/10 file:text-[#a08552] hover:file:bg-[#a08552]/20 transition-colors cursor-pointer"
+                                        className="text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#a08552]/10 file:text-[#C4A661] hover:file:bg-[#a08552]/20 transition-colors cursor-pointer"
                                     />
                                 </div>
                                 <div className="w-full h-px bg-gray-200"></div>
                                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                                     <label htmlFor="relevantDocs"
-                                           className="text-black font-bold text-[14px] tracking-wide flex items-center gap-2">
+                                           className="text-white font-bold text-[14px] tracking-wide flex items-center gap-2">
                                         <Upload size={16} className="text-[#a08552]"/> Attach Relevant Documents
                                     </label>
                                     <input
@@ -197,7 +197,7 @@ const ReachUsSection = () => {
                                         id="relevantDocs"
                                         name="relevantDocs"
                                         multiple
-                                        className="text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#a08552]/10 file:text-[#a08552] hover:file:bg-[#a08552]/20 transition-colors cursor-pointer"
+                                        className="text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#a08552]/10 file:text-[#C4A661] hover:file:bg-[#a08552]/20 transition-colors cursor-pointer"
                                     />
                                 </div>
                             </div>
@@ -206,11 +206,11 @@ const ReachUsSection = () => {
                             <div className="mt-3 flex justify-center lg:justify-start">
                                 <button
                                     type="submit"
-                                    className="bg-[#a08552] text-white px-10 py-3 text-[15px] font-bold hover:bg-[#8a7246] transition-all duration-300 flex items-center justify-center gap-3 group tracking-widest uppercase rounded-full shadow-md w-full sm:w-auto"
+                                    className="bg-[#a08552] text-black px-10 py-3 text-[15px] font-bold hover:bg-[#8a7246] transition-all duration-300 flex items-center justify-center gap-3 group tracking-widest uppercase rounded-full shadow-md w-full sm:w-auto"
                                 >
                                     Submit Details
                                     <span
-                                        className="bg-white/20 rounded-full p-1 flex items-center justify-center text-white group-hover:translate-x-1 transition-transform">
+                                        className="bg-white/20 rounded-full p-1 flex items-center justify-center text-black group-hover:translate-x-1 transition-transform">
                     <ArrowUpRight size={18} strokeWidth={2.5}/>
                   </span>
                                 </button>

@@ -10,7 +10,8 @@ import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-black   relative overflow-hidden">
+    <footer className="bg-none   relative overflow-hidden">
+      <div className="absolute inset-0 bg-linear-to-b from-gray-500 to-white pointer-events-none"></div>
       {/* Top Main Section */}
       <div className="pt-20 lg:pt-20 pb-0 px-6 lg:px-12 max-w-350 mx-auto w-full relative z-10">
         {/* Grid Layout */}
@@ -27,22 +28,22 @@ export default function Footer() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h2 className="text-white text-[20px] md:text-[22px]   font-bold tracking-wide">
+              <h2 className="text-black text-[20px] md:text-[22px]   font-bold tracking-wide">
                 VEDANTA
               </h2>
             </div>
 
             {/* Newsletter */}
-            <h4 className="text-white font-medium mb-4 text-[14px] md:text-[15px]">
+            <h4 className="text-black font-medium mb-4 text-[14px] md:text-[15px]">
               Subscribe to Newsletter
             </h4>
             <div className="w-full max-w-[320px] relative flex items-center bg-transparent border border-gray-600 rounded-full p-0.75 mb-12">
               <input
                 type="email"
                 placeholder="Email Address"
-                className="bg-transparent text-[12px] md:text-[13px] px-4 py-2 focus:outline-none flex-1 text-white placeholder:text-gray-300 w-full min-w-0"
+                className="bg-transparent text-[12px] md:text-[13px] px-4 py-2 focus:outline-none flex-1 text-black placeholder:text-gray-300 w-full min-w-0"
               />
-              <button className="bg-white text-black px-5 md:px-6 py-2 rounded-full text-[12px] md:text-[13px] font-semibold hover:bg-gray-200 transition-colors shrink-0">
+              <button className="bg-black text-white px-5 md:px-6 py-2 rounded-full text-[12px] md:text-[13px] font-semibold hover:bg-gray-200 transition-colors shrink-0">
                 Submit
               </button>
             </div>
@@ -51,25 +52,25 @@ export default function Footer() {
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="bg-white text-black p-1.5 md:p-2 rounded-sm hover:bg-gray-200 transition-colors flex items-center justify-center"
+                className="bg-black text-white p-1.5 md:p-2 rounded-sm hover:bg-gray-200 transition-colors flex items-center justify-center"
               >
                 <FaXTwitter size={16} />
               </a>
               <a
                 href="#"
-                className="bg-white text-black p-1.5 md:p-2 rounded-smver:bg-gray-200 transition-colors flex items-center justify-center"
+                className="bg-black text-white p-1.5 md:p-2 rounded-smver:bg-gray-200 transition-colors flex items-center justify-center"
               >
                 <FaFacebookF size={16} />
               </a>
               <a
                 href="#"
-                className="bg-white text-black p-1.5 md:p-2 rounded-sm hover:bg-gray-200 transition-colors flex items-center justify-center"
+                className="bg-black text-white p-1.5 md:p-2 rounded-sm hover:bg-gray-200 transition-colors flex items-center justify-center"
               >
                 <FaInstagram size={16} />
               </a>
               <a
                 href="#"
-                className="bg-white text-black p-1.5 md:p-2 rounded-smver:bg-gray-200 transition-colors flex items-center justify-center"
+                className="bg-black text-white p-1.5 md:p-2 rounded-smver:bg-gray-200 transition-colors flex items-center justify-center"
               >
                 <FaLinkedinIn size={16} />
               </a>
@@ -78,10 +79,10 @@ export default function Footer() {
 
           {/* Column 2 - Pages */}
           <div className="lg:pl-10">
-            <h3 className="text-white   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
+            <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
               Pages
             </h3>
-            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-gray-300">
+            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
               <li>
                 <a href="/" className="hover:text-white transition-colors">
                   Home
@@ -113,10 +114,10 @@ export default function Footer() {
 
           {/* Column 3 - Practice Area 1 */}
           <div className="lg:ml-[-5%] xl:ml-[-10%]">
-            <h3 className="text-white   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
+            <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
               Practice Area
             </h3>
-            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-gray-300">
+            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
               <li>
                 <a
                   href="#"
@@ -166,11 +167,11 @@ export default function Footer() {
 
           {/* Column 4 - Practice Area 2 */}
           <div className="lg:ml-[-5%] xl:ml-[-10%] mt-4 md:mt-0">
-            <h3 className="text-white   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide ">
+            <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide ">
               Practice Area
             </h3>
 
-            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-gray-300">
+            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
               <li>
                 <a
                   href="#"
@@ -239,7 +240,7 @@ export default function Footer() {
           <div className="flex items-center justify-center gap-1.5">
             <p>
               Built With Love By{" "}
-              <span className="font-bold text-white tracking-wide ml-1">
+              <span className="font-bold text-black tracking-wide ml-1">
                 <a
                   href="https://crtedge.com/"
                   target="_blank"
