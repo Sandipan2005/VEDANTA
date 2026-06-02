@@ -25,13 +25,13 @@ export default function ContactForm() {
                     {/* --- Form Area --- */}
                     <div className="w-full lg:w-[65%] mb-10 lg:mb-0">
                         <div
-                            className="w-full bg-white shadow-[0_15px_50px_-15px_rgba(0,0,0,0.1)] border border-gray-50 p-8 md:p-10 lg:p-12">
+                            className="w-full bg-none shadow-[0_15px_50px_-15px_rgba(0,0,0,0.1)] border border-gray-50 p-8 md:p-10 lg:p-12">
                             <form className="flex flex-col w-full">
                                 {/* Name Field */}
                                 <div className="mb-6 md:mb-8">
                                     <label
                                         htmlFor="name"
-                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-black mb-3"
+                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-white mb-3"
                                     >
                                         NAME
                                     </label>
@@ -47,7 +47,7 @@ export default function ContactForm() {
                                 <div className="mb-6 md:mb-8">
                                     <label
                                         htmlFor="phone"
-                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-black mb-3"
+                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-white mb-3"
                                     >
                                         PHONE NUMBER
                                     </label>
@@ -63,7 +63,7 @@ export default function ContactForm() {
                                 <div className="mb-6 md:mb-8">
                                     <label
                                         htmlFor="email"
-                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-black mb-3"
+                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-white mb-3"
                                     >
                                         EMAIL
                                     </label>
@@ -79,7 +79,7 @@ export default function ContactForm() {
                                 <div className="mb-8 md:mb-12">
                                     <label
                                         htmlFor="feedback"
-                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-black mb-3"
+                                        className="block   font-bold text-[14px] md:text-[15px] tracking-wide text-white mb-3"
                                     >
                                         FEEDBACK
                                     </label>

@@ -50,7 +50,7 @@ const PracticeAreaCard = ({
 
             {/* Card Content */}
             <div
-                className="relative z-10 bg-[#161616] p-8 md:p-12 lg:pt-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)] rounded-sm border border-gray-50 flex flex-col gap-6">
+                className="relative z-10 bg-none p-8 md:p-12 lg:pt-6  rounded-sm border border-none flex flex-col gap-6">
                 <h3
                     className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6  rounded-sm p-2 text-[#e0e0e0]"
                     // style={{ textShadow: "0px 4px 30px #303030 " }}
@@ -63,7 +63,7 @@ const PracticeAreaCard = ({
 
                 {(listCol1 || listCol2) && (
                     <div
-                        className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 md:gap-x-32 lg:gap-x-90 gap-y-6 mb-8 max-w-4xl mx-auto w-full md:px-8">
+                        className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 md:gap-x-32 lg:gap-x-90 gap-y-6 mb-8 max-w-4xl mx-auto w-full md:px-8 text-nowrap">
                         {listCol1 && (
                             <ul className="space-y-4 w-full">
                                 {listCol1.map((item, idx) => (
@@ -132,13 +132,14 @@ const PracticeAreasContent = () => {
                         "Breach of contract cases",
                         "Specific performance suits",
                         "Injunction matters",
-                        "Declaration suits",
+
                     ]}
                     listCol2={[
                         "Civil appeals and revisions",
                         "Partition suits",
                         "Filing and defending caveats",
                         "All other civil litigation matters",
+                        "Declaration suits",
                     ]}
                     paragraphs={[
                         "The firm handles civil litigation and dispute resolution matters before the District Courts, the High Court of Meghalaya, and other appropriate forums. This practice area covers a wide range of civil disputes involving individuals, companies, banks, financial institutions, government entities, and other organizations. It includes filing and defending suits for recovery of money, breach of contract, specific performance of agreements, temporary and permanent injunctions, declarations regarding legal rights, partition of property, filing and defending caveats, as well as civil appeals and revisions.",
@@ -407,7 +408,7 @@ const PracticeAreasContent = () => {
                         "Disciplinary action cases",
                         "Promotion-related disputes",
                         "Pay fixation matters",
-                        "Retirement benefit claims",
+
                     ]}
                     listCol2={[
                         "Pension-related disputes",
@@ -415,6 +416,7 @@ const PracticeAreasContent = () => {
                         "Labour law compliance",
                         "Employer-employee dispute matters",
                         "All other service and employment law matters",
+                        "Retirement benefit claims",
                     ]}
                     paragraphs={[
                         "This practice area relates to service and employment law matters before administrative tribunals, labour courts, civil courts, the High Court, and other appropriate forums. Employment and service disputes may arise between employees and employers, government servants and departments, public sector employees and authorities, or workmen and management.",
