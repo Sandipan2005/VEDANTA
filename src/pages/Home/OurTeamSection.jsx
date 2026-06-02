@@ -6,6 +6,7 @@ import CoFounderPhoto from "../../assets/CoFounder.png";
 import CoFounder2 from "../../assets/FounderPhoto2.png";
 import CoFounder3 from "../../assets/FounderPhoto3.png";
 import CoFounder4 from "../../assets/CoFounder4.jpeg";
+import CoFounder5 from "../../assets/M K Bose.jpeg";
 // Mock data to generate the 3x3 grid (9 items total)
 const teamMembers = [
   { id: 1, name: "B.S. Sarkar", imageSrc: founder1 },
@@ -13,7 +14,7 @@ const teamMembers = [
   { id: 3, name: "D.C. Roy", imageSrc: CoFounder2 },
   { id: 4, name: "J.U. Khadim", imageSrc: CoFounder3 },
   { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
-  { id: 6, name: "Name", imageSrc: null },
+  { id: 6, name: "M K Bose", imageSrc: CoFounder5 },
   // { id: 7, name: "R. Chatterjee", imageSrc: founder1 },
   // { id: 8, name: "P. Banerjee", imageSrc: founder2 },
   // { id: 9, name: "M. Das", imageSrc: founder3 },

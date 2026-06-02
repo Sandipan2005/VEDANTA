@@ -38,6 +38,7 @@ const Header = () => {
               <span className="text-xs md:text-sm text-gray-400 font-medium tracking-widest">
                 A Law Firm
               </span>
+              <span className="w-4 md:w-6 h-px bg-gray-400"></span>
             </div>
           </div>
         </div>
