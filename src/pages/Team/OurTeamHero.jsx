@@ -2,11 +2,11 @@
 import React from "react";
 import Header from "../../components/layout/Header";
 import HeroBG from "../../assets/HeroHomeBG.png";
-import HeroImg from "../../assets/HomeOurServicesImg1.png";
+
 
 const PracticeAreasHero = () => {
   return (
-    <div className="relative min-h-[60vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden bg-black">
+    <div className="relative min-h-[60vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden bg-black ">
       {/* Dynamic Background Pattern - Diagonal Lines */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none flex items-center justify-center">
         {/*<div*/}
@@ -33,13 +33,12 @@ const PracticeAreasHero = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: `url("/WhatsApp Image 2026-06-02 at 08.45.00.jpeg")`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundImage:
+                  'url("/WhatsApp Image 2026-06-02 at 08.45.01.jpeg")',
               }}
             />
             {/* Dark Overlay over the inner image */}
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/70" />
 
             {/* Text Overlay Content */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">

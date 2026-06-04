@@ -34,7 +34,7 @@ const PracticeAreasHero = () => {
               className="absolute inset-0 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  'url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80")',
+                  'url("/image.png")',
               }}
             />
             {/* Dark Overlay over the inner image */}
