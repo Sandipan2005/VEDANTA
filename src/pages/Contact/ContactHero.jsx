@@ -33,7 +33,7 @@ const PracticeAreasHero = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: `url(${HeroImg})`,
+                backgroundImage: `url("/WhatsApp Image 2026-06-02 at 08.45.00.jpeg")`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
