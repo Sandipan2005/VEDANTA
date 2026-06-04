@@ -17,7 +17,7 @@ const ReachUsSection = () => {
 
     return (
         <section
-            className="relative w-full bg-[#303030] py-16 md:py-5 px-5 sm:px-8 md:px-12 xl:px-24"
+            className="relative w-full bg-[#303030] py-0 md:py-0 px-5 sm:px-8 md:px-12 xl:px-24"
             aria-labelledby="reach-us-heading"
         >
             {/* JSON-LD Schema for rich snippet and LLM context extraction */}
@@ -27,14 +27,14 @@ const ReachUsSection = () => {
             {/*/>*/}
 
             {/* Header */}
-            <header className="flex flex-col items-center mb-12 md:mb-16">
+            <header className="flex flex-col items-center mb-1 md:mb-1">
                 <div className="relative inline-block text-center">
 
                     {/* NEW IMAGE ADDED ABOVE TITLE */}
                     <img
                         src="/WhatsApp Image 2026-06-04 at 17.10.02.jpeg"
                         alt="Reach Us Banner"
-                        className="w-24 h-24 object-contain mb-4 mx-auto"
+                        className=" w-150 h-100 md:w-270 md:h-200 object-contain mb-0 mx-auto"
                     />
 
                     <h2
