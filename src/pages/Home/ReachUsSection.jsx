@@ -29,12 +29,21 @@ const ReachUsSection = () => {
             {/* Header */}
             <header className="flex flex-col items-center mb-12 md:mb-16">
                 <div className="relative inline-block text-center">
+
+                    {/* NEW IMAGE ADDED ABOVE TITLE */}
+                    <img
+                        src="/WhatsApp Image 2026-06-04 at 17.10.02.jpeg"
+                        alt="Reach Us Banner"
+                        className="w-24 h-24 object-contain mb-4 mx-auto"
+                    />
+
                     <h2
                         id="reach-us-heading"
                         className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase text-[#e0e0e0]"
                     >
                         REACH <span className="text-[#e0e0e0]">US</span>
                     </h2>
+
                     <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>
                 </div>
             </header>
@@ -77,15 +86,18 @@ const ReachUsSection = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="fullName"
-                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Full Name
-                                        *</label>
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                        Full Name *
+                                    </label>
                                     <input type="text" id="fullName" name="fullName" required
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
+
                                 <div className="flex flex-col">
                                     <label htmlFor="phone"
-                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Phone Number
-                                        *</label>
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                        Phone Number *
+                                    </label>
                                     <input type="tel" id="phone" name="phone" required
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
@@ -95,20 +107,18 @@ const ReachUsSection = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="whatsapp"
-                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Whatsapp
-                                        Number</label>
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                        Whatsapp Number
+                                    </label>
                                     <input type="tel" id="whatsapp" name="whatsapp"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
-                                {/*<div className="flex flex-col">*/}
-                                {/*    <label htmlFor="email" className="text-white font-bold text-[14px] tracking-wide mb-0">Email ID</label>*/}
-                                {/*    <input type="email" id="email" name="email" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent" />*/}
-                                {/*</div>*/}
 
                                 <div className="flex flex-col">
                                     <label htmlFor="incidentDate"
-                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Date of
-                                        Incident</label>
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                        Date of Incident
+                                    </label>
                                     <input type="date" id="incidentDate" name="incidentDate"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent text-gray-300"/>
                                 </div>
@@ -117,7 +127,9 @@ const ReachUsSection = () => {
                             {/* Address */}
                             <div className="flex flex-col">
                                 <label htmlFor="address"
-                                       className="text-white font-bold text-[14px] tracking-wide mb-0">Address</label>
+                                       className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                    Address
+                                </label>
                                 <input type="text" id="address" name="address"
                                        className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                             </div>
@@ -126,41 +138,29 @@ const ReachUsSection = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="jurisdiction"
-                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Jurisdiction
-                                        / Place of Incident</label>
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                        Jurisdiction / Place of Incident
+                                    </label>
                                     <input type="text" id="jurisdiction" name="jurisdiction"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
+
                                 <div className="flex flex-col">
                                     <label htmlFor="incidentType"
-                                           className="text-white font-bold text-[14px] tracking-wide mb-0">Type of
-                                        Incident</label>
+                                           className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                        Type of Incident
+                                    </label>
                                     <input type="text" id="incidentType" name="incidentType"
                                            className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-0 text-[15px] transition-colors bg-transparent"/>
                                 </div>
                             </div>
 
-                            {/* Date & Communication Mode Row */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                {/*<div className="flex flex-col">*/}
-                                {/*    <label htmlFor="incidentDate" className="text-black font-bold text-[14px] tracking-wide mb-2">Date of Incident</label>*/}
-                                {/*    <input type="date" id="incidentDate" name="incidentDate" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent text-gray-700" />*/}
-                                {/*</div>*/}
-                                {/*<div className="flex flex-col">*/}
-                                {/*    <label htmlFor="commMode" className="text-black font-bold text-[14px] tracking-wide mb-2">Preferred Mode of Communication</label>*/}
-                                {/*    <select id="commMode" name="commMode" className="w-full border-b-2 border-gray-200 focus:border-[#a08552] outline-none py-2 text-[15px] transition-colors bg-transparent text-gray-700">*/}
-                                {/*        <option value="phone">Phone Call</option>*/}
-                                {/*        <option value="whatsapp">WhatsApp</option>*/}
-                                {/*        <option value="email">Email</option>*/}
-                                {/*    </select>*/}
-                                {/*</div>*/}
-                            </div>
-
                             {/* Describe Matter */}
                             <div className="flex flex-col mt-0">
                                 <label htmlFor="matterDescription"
-                                       className="text-white font-bold text-[14px] tracking-wide mb-0">Describe Your
-                                    Matter *</label>
+                                       className="text-white font-bold text-[14px] tracking-wide mb-0">
+                                    Describe Your Matter *
+                                </label>
                                 <textarea
                                     id="matterDescription"
                                     name="matterDescription"
@@ -186,7 +186,9 @@ const ReachUsSection = () => {
                                         className="text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#a08552]/10 file:text-[#C4A661] hover:file:bg-[#a08552]/20 transition-colors cursor-pointer"
                                     />
                                 </div>
+
                                 <div className="w-full h-px bg-gray-200"></div>
+
                                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                                     <label htmlFor="relevantDocs"
                                            className="text-white font-bold text-[14px] tracking-wide flex items-center gap-2">
@@ -209,10 +211,9 @@ const ReachUsSection = () => {
                                     className="bg-[#a08552] text-black px-10 py-3 text-[15px] font-bold hover:bg-[#8a7246] transition-all duration-300 flex items-center justify-center gap-3 group tracking-widest uppercase rounded-full shadow-md w-full sm:w-auto"
                                 >
                                     Submit Details
-                                    <span
-                                        className="bg-white/20 rounded-full p-1 flex items-center justify-center text-black group-hover:translate-x-1 transition-transform">
-                    <ArrowUpRight size={18} strokeWidth={2.5}/>
-                  </span>
+                                    <span className="bg-white/20 rounded-full p-1 flex items-center justify-center text-black group-hover:translate-x-1 transition-transform">
+                                        <ArrowUpRight size={18} strokeWidth={2.5}/>
+                                    </span>
                                 </button>
                             </div>
 
