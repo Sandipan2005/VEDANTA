@@ -8,7 +8,7 @@ const OurTeamHero = () => {
       <Header />
 
       {/* Main Content Area */}
-      <div className="relative z-10 w-full px-4 md:px-12 lg:px-20 xl:px-32 flex items-center justify-center flex-1 mt-24 md:mt-32 pb-12">
+      <div className="relative z-10 w-full flex items-center justify-center flex-1">
         
         {/* Image Box (UPDATED TO FULL SCREEN STYLE) */}
         <div className="relative w-full h-screen overflow-hidden">
@@ -25,7 +25,7 @@ const OurTeamHero = () => {
           {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/70" />
 
-          
+        
         </div>
 
       </div>
