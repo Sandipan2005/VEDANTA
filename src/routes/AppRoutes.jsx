@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "../components/layout/ScrollToTop";
 import Home from "../pages/Home/Home";
 import PracticeAreas from "../pages/PracticeAreas/PracticeAreas";
 import Team from "../pages/Team/Team";
@@ -10,6 +11,7 @@ import Contact from "../pages/Contact/Contact";
 export default function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/practice-areas" element={<PracticeAreas />} />
