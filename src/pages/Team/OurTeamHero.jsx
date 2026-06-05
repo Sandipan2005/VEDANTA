@@ -8,9 +8,9 @@ const OurTeamHero = () => {
       <Header />
 
       {/* Main Content Area */}
-      <div className="relative z-10 w-full flex items-center justify-center flex-1">
+      <div className="relative z-10 w-full px-4 md:px-12 lg:px-20 xl:px-32 flex items-center justify-center flex-1 mt-24 md:mt-32 pb-12">
         
-        {/* Fullscreen Image */}
+        {/* Image Box (UPDATED TO FULL SCREEN STYLE) */}
         <div className="relative w-full h-screen overflow-hidden">
           
           {/* Background Image */}
@@ -25,15 +25,9 @@ const OurTeamHero = () => {
           {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/70" />
 
-          {/* Text Overlay */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-serif uppercase drop-shadow-lg">
-            </h2>
-
-            <div className="w-16 md:w-24 lg:w-32 h-[3px] bg-[#c4a661] mt-6" />
-          </div>
-
+          
         </div>
+
       </div>
     </div>
   );
