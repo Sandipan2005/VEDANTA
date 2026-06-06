@@ -1,46 +1,29 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
+import "react";
 import Header from "../../components/layout/Header";
-import HeroBG from "../../assets/HeroHomeBG.png";
-import HeroImg from "../../assets/HomeOurServicesImg1.png";
 
-const PracticeAreasHero = () => {
+const ContactHero = () => {
   return (
-    <div className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-black">
-
-      {/* Background Layer */}
-      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none flex items-center justify-center">
-        {/* Optional background pattern */}
-      </div>
-
+    <div className="relative w-full h-[95vh] overflow-hidden bg-none">
       <Header />
 
-      {/* Main Content Area (REMOVED padding + margins causing borders) */}
-      <div className="relative z-10 w-full flex items-center justify-center flex-1">
+      {/* Background Image Container */}
+      <div className="absolute inset-0">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url("/WhatsApp Image 2026-06-02 at 08.45.00.jpeg")`,
+          }}
+        />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
 
-        {/* FULLSCREEN HERO CONTAINER */}
-        <div className="relative w-full h-screen overflow-hidden">
-
-          {/* Background Image */}
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url("/WhatsApp Image 2026-06-02 at 08.45.00.jpeg")`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          />
-
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/50" />
-
-          
-          
-        </div>
-
+      {/* Content Area */}
+      <div className="relative z-10 w-full h-full flex items-center justify-center">
+        {/* Content goes here */}
       </div>
     </div>
   );
 };
 
-export default PracticeAreasHero;
+export default ContactHero;

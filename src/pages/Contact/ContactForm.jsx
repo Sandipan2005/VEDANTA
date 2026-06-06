@@ -4,7 +4,7 @@ import {ArrowUpRight} from "lucide-react";
 
 export default function ContactForm() {
     return (
-        <section className="bg-[#303030] min-h-screen py-20 px-4 md:px-8 font-sans">
+        <section className="bg-[#303030] min-h-screen py-10 px-4 md:px-8 font-sans">
             <div className="max-w-300 mx-auto flex flex-col items-center">
                 {/* --- Header Section --- */}
                 <div className="text-center mb-16 flex flex-col items-center">
