@@ -3,15 +3,15 @@ import React from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import founder1 from "../../assets/FounderPhoto.png";
+import cofounder1 from "../../assets/Cofounder2.jpeg";
 import CoFounderPhoto from "../../assets/CoFounder.png";
 import CoFounder2 from "../../assets/FounderPhoto2.png";
 import CoFounder3 from "../../assets/FounderPhoto3.png";
-import CoFounder4 from "../../assets/CoFounder4.jpeg";
+import CoFounder4 from "../../assets/CoFounder4.jpeg"; 
 import CoFounder5 from "../../assets/M K Bose.jpeg";
 
 const teamMembers = [
-  { id: 1, name: "B.S. Sarkar", imageSrc: founder1 },
+  { id: 1, name: "Mrinal Kanti Bose", imageSrc: cofounder1 },
   { id: 2, name: "Kuntal Ghosh", imageSrc: CoFounderPhoto },
   { id: 3, name: "D.C. Roy", imageSrc: CoFounder2 },
   { id: 4, name: "J.U. Khadim", imageSrc: CoFounder3 },

@@ -8,22 +8,21 @@ const OurTeamHero = () => {
       <Header />
 
       {/* Main Content Area */}
-      <div className="relative z-10 w-full flex items-center justify-center flex-1">
+      <div className="relative z-10 w-full h-205 flex items-center justify-center flex-1">
         
         {/* Image Box (UPDATED TO FULL SCREEN STYLE) */}
-        <div className="relative w-full h-screen overflow-hidden">
+        <div className="relative w-full h-205 overflow-hidden">
           
           {/* Background Image */}
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("/WhatsApp Image 2026-06-02 at 08.45.01.jpeg")',
+                'url("/WhatsApp Image 2026-06-08 at 16.26.24 (1).jpeg")',
             }}
           />
 
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/70" />
+          
 
         
         </div>

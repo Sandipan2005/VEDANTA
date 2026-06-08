@@ -19,20 +19,20 @@ const PracticeAreasHero = () => {
       <div className="relative z-10 w-full flex items-center justify-center flex-1">
 
         {/* FULLSCREEN HERO CONTAINER */}
-        <div className="relative w-full h-screen overflow-hidden">
+        <div className="relative w-full h-250 overflow-hidden">
 
           {/* Background Image */}
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-0"
             style={{
-              backgroundImage: `url("/WhatsApp Image 2026-06-02 at 08.45.00.jpeg")`,
+              backgroundImage: `url("/WhatsApp Image 2026-06-08 at 16.26.23.jpeg")`,
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center center",
+              backgroundRepeat: "no-repeat",
             }}
           />
 
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/50" />
+          
 
           
           

@@ -114,15 +114,17 @@ export default function ContactForm() {
                             <div className="flex items-center gap-3 mb-1">
                                 <div className="w-[7px] h-[7px] min-w-[7px] rounded-full bg-[#A68A56]"></div>
                                 <h3 className="text-[25px] font-serif font-medium text-[#A68A56] tracking-wide">
-                                    Kolkata
+                                    West Bengal
                                 </h3>
                             </div>
                             <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
-                                Kolkata Address details go here,<br/>
-                                Some Street, Building Name,<br/>
-                                Kolkata 700001,<br/>
-                                West Bengal, India
-                            </p>
+                                 1. 68/5, C Balllygunge Place.<br/>
+                                    Kolkata, Pin 700019,<br/>
+                                    West Bengal, India<br/>
+                                 2. 120, Rashtraguru Avenue,<br/>
+                                    Clive House, Dumdum - Nagerbazar,<br/>
+                                    Kolkata - 700028,<br/>
+                                    West Bengal, India                            </p>
                         </div>
 
                         {/* Tripura */}
@@ -134,9 +136,9 @@ export default function ContactForm() {
                                 </h3>
                             </div>
                             <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
-                                Tripura Address details go here,<br/>
-                                Some Street, Building Name,<br/>
-                                Agartala 799001,<br/>
+                                4, Tapo Bibha,<br/>
+                                Ramnagar- 8<br/>
+                                Agartala 799002,<br/>
                                 Tripura, India
                             </p>
                         </div>
@@ -146,12 +148,12 @@ export default function ContactForm() {
                             <div className="flex items-center gap-3 mb-1">
                                 <div className="w-[7px] h-[7px] min-w-[7px] rounded-full bg-[#A68A56]"></div>
                                 <h3 className="text-[25px] font-serif font-medium text-[#A68A56] tracking-wide">
-                                    Guwahati
+                                    Assam
                                 </h3>
                             </div>
                             <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
-                                Guwahati Address details go here,<br/>
-                                Some Street, Building Name,<br/>
+                                199 hajo nalbari road,<br/>
+                                khaopanikuchi, Hajo Kamrup,<br/>
                                 Guwahati 781001,<br/>
                                 Assam, India
                             </p>
@@ -166,11 +168,11 @@ export default function ContactForm() {
                                 </h3>
                             </div>
                             <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
-                                Bangalore Address details go here,<br/>
-                                Some Street, Building Name,<br/>
-                                Bangalore 560001,<br/>
+                                1335,10th Cross,<br/>
+                                Judicial Layout, GKVK Post,<br/>
+                                Bangalore 560065,<br/>
                                 Karnataka, India
-                            </p>
+                            </p>Kolkata
                         </div>
                     </div>
 
