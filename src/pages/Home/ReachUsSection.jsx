@@ -34,7 +34,7 @@ const ReachUsSection = () => {
                     <img
                         src="/WhatsApp Image 2026-06-08 at 16.26.25.jpeg"
                         alt="Reach Us Banner"
-                        className="w-300 h-300 object-contain mb-4 mx-auto"
+                        className="w-250 h-250 object-contain mb-4 mx-auto"
                     />
 
                     <h2

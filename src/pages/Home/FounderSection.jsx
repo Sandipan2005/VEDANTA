@@ -54,7 +54,7 @@ const FounderSection = () => {
 
                     {/* Photo */}
                     <div
-                        className="relative z-10 w-[280px] h-[360px] sm:w-[320px] sm:h-[420px] md:w-[380px] md:h-[480px] rounded-[40px] shadow-[0_0_40px_rgba(0,0,0,0.6)] overflow-hidden bg-cover bg-center border border-white/10"
+                        className="relative z-10 w-[280px] h-[360px] sm:w-[320px] sm:h-[420px] md:w-[380px] md:h-[480px] rounded-[40px] overflow-hidden bg-cover bg-center border border-white/10"
                         style={{
                             backgroundImage: `url(${FounderPhoto})`,
                         }}
