@@ -32,9 +32,9 @@ const ReachUsSection = () => {
 
                     {/* NEW IMAGE ADDED ABOVE TITLE */}
                     <img
-                        src="/WhatsApp Image 2026-06-05 at 10.54.58.jpeg"
+                        src="/WhatsApp Image 2026-06-08 at 16.26.25.jpeg"
                         alt="Reach Us Banner"
-                        className=" w-150 h-100 md:w-270 md:h-200 object-contain mb-0 mx-auto"
+                        className="w-300 h-300 object-contain mb-4 mx-auto"
                     />
 
                     <h2

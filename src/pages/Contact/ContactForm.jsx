@@ -172,7 +172,7 @@ export default function ContactForm() {
                                 Judicial Layout, GKVK Post,<br/>
                                 Bangalore 560065,<br/>
                                 Karnataka, India
-                            </p>Kolkata
+                            </p>
                         </div>
                     </div>
 
