@@ -15,21 +15,23 @@ const PracticeAreasHero = () => {
       <Header />
 
       {/* Main Content Area (REMOVED PADDING + LIMITERS) */}
-      <div className="relative z-10 w-full flex items-center justify-center flex-1">
-
+        <div className="relative w-380 h-[890px] overflow-hidden">
         {/* FULLSCREEN HERO CONTAINER (REMOVED max-width + rounded + shadow) */}
-        <div className="relative w-full h-screen overflow-hidden">
+        <div className="relative w-380 h-[890px] overflow-hidden">
 
           {/* Background Image */}
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-0"
             style={{
-              backgroundImage: 'url("/image.png")',
+              backgroundImage: 'url("/WhatsApp Image 2026-06-08 at 16.26.23 (1).jpeg")',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           />
 
           {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/70" />
+          
 
           {/* Text Overlay */}
          
