@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const TeamJoinForm = () => {
 
+
   const practiceAreas = [
     "Civil Litigation",
     "Criminal Law",
@@ -27,8 +28,10 @@ const TeamJoinForm = () => {
   ];
 
 
+
   const inputStyle =
     "w-full border border-gray-200 px-4 py-3 bg-transparent text-gray-300 focus:outline-none focus:border-[#a08552] text-sm font-light transition-colors";
+
 
 
   return (
@@ -42,15 +45,14 @@ const TeamJoinForm = () => {
         <form className="space-y-6 md:space-y-8">
 
 
+          {/* Basic Details */}
 
-          {/* Personal Details */}
 
           {[
             "FULL NAME (AS PER BAR COUNCIL)",
             "FATHER'S / HUSBAND'S NAME",
             "DATE OF BIRTH",
             "AADHAAR NUMBER",
-            "RESIDENTIAL ADDRESS",
             "MOBILE NUMBER",
             "EMAIL ADDRESS",
             "BAR COUNCIL ENROLLMENT NUMBER",
@@ -64,30 +66,21 @@ const TeamJoinForm = () => {
 
 
               <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+
                 {field}
+
               </label>
 
 
-              {field === "RESIDENTIAL ADDRESS" ? (
+              <input
 
-                <textarea
-                  rows="4"
-                  placeholder="Enter here..."
-                  className={inputStyle}
-                />
+                type="text"
 
+                placeholder="Enter here"
 
-              ) : (
+                className={inputStyle}
 
-
-                <input
-                  type="text"
-                  placeholder="Enter here..."
-                  className={inputStyle}
-                />
-
-
-              )}
+              />
 
 
             </div>
@@ -98,13 +91,49 @@ const TeamJoinForm = () => {
 
 
 
-          {/* Gender */}
+
+
+          {/* Residential Address */}
+
 
           <div className="flex flex-col space-y-2">
 
 
             <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+
+              RESIDENTIAL ADDRESS
+
+            </label>
+
+
+            <textarea
+
+              rows="4"
+
+              placeholder="Enter address"
+
+              className={inputStyle}
+
+            />
+
+
+          </div>
+
+
+
+
+
+
+          {/* Gender */}
+
+
+          <div className="flex flex-col space-y-3">
+
+
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+
               GENDER
+
             </label>
 
 
@@ -135,21 +164,26 @@ const TeamJoinForm = () => {
 
 
 
-          {/* Area Practice */}
+
+
+          {/* Practice Area */}
 
 
           <div className="flex flex-col space-y-3">
 
 
             <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+
               AREAS OF PRACTICE / SPECIALIZATION
+
             </label>
 
 
             <p className="text-gray-300 text-sm">
-              Please tick all that apply:
-            </p>
 
+              Please tick all that apply:
+
+            </p>
 
 
             <div className="grid md:grid-cols-2 gap-3 text-gray-300 text-sm">
@@ -157,11 +191,13 @@ const TeamJoinForm = () => {
 
               {practiceAreas.map((area)=>(
 
+
                 <label key={area}>
 
                   <input type="checkbox"/> {area}
 
                 </label>
+
 
               ))}
 
@@ -171,13 +207,19 @@ const TeamJoinForm = () => {
 
 
             <input
+
               type="text"
+
               placeholder="Other (please specify)"
+
               className={inputStyle}
+
             />
 
 
           </div>
+
+
 
 
 
@@ -190,16 +232,18 @@ const TeamJoinForm = () => {
 
 
             <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+
               DECLARATION
+
             </label>
 
 
             <p className="text-gray-300 text-sm leading-6">
 
 
-              I hereby declare that the information provided above is true and
-              correct to the best of my knowledge. I understand that any false
-              or misleading information may result in rejection of my application.
+              I hereby declare that the information provided above is true and correct
+              to the best of my knowledge. I understand that any false or misleading
+              information may result in rejection of my application.
 
 
             </p>
@@ -211,29 +255,88 @@ const TeamJoinForm = () => {
 
 
 
-          {/* Documents */}
 
 
-          <div className="flex flex-col space-y-2">
+          {/* Upload Documents */}
+
+
+          <div className="flex flex-col space-y-5">
 
 
             <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+
               REQUIRED DOCUMENTS TO SUBMIT
+
             </label>
 
 
-            <p className="text-gray-300 text-sm">
 
-              1. Bar Council Enrollment Certificate
 
-              <br/>
 
-              2. Passport Size Photographs (recent)
+            {/* Enrollment Certificate */}
 
-            </p>
+
+            <div className="flex flex-col space-y-2">
+
+
+              <label className="text-gray-300 text-sm">
+
+                1. Bar Council Enrollment Certificate
+
+              </label>
+
+
+              <input
+
+                type="file"
+
+                accept=".pdf,.jpg,.jpeg,.png"
+
+                className="w-full border border-gray-200 px-4 py-3 bg-transparent text-gray-300 text-sm 
+                file:bg-[#a08552] file:text-white file:border-0 file:px-5 file:py-2 file:mr-4 cursor-pointer"
+
+              />
+
+
+            </div>
+
+
+
+
+
+
+            {/* Passport Photo */}
+
+
+            <div className="flex flex-col space-y-2">
+
+
+              <label className="text-gray-300 text-sm">
+
+                2. Recent Passport Size Photographs
+
+              </label>
+
+
+              <input
+
+                type="file"
+
+                accept=".jpg,.jpeg,.png"
+
+                className="w-full border border-gray-200 px-4 py-3 bg-transparent text-gray-300 text-sm 
+                file:bg-[#a08552] file:text-white file:border-0 file:px-5 file:py-2 file:mr-4 cursor-pointer"
+
+              />
+
+
+            </div>
+
 
 
           </div>
+
+
 
 
 
@@ -242,14 +345,17 @@ const TeamJoinForm = () => {
           {/* Submit Button */}
 
 
+
           <div>
 
 
             <button
-              type="submit"
-              className="bg-[#a08552] text-white px-8 py-2.5 text-sm flex items-center justify-center gap-2 hover:bg-[#8a7246] transition-colors group rounded-xs shadow-sm font-medium tracking-wide"
-            >
 
+              type="submit"
+
+              className="bg-[#a08552] text-white px-8 py-2.5 text-sm flex items-center justify-center gap-2 hover:bg-[#8a7246] transition-colors group rounded-xs shadow-sm font-medium tracking-wide"
+
+            >
 
               Submit
 
@@ -258,9 +364,13 @@ const TeamJoinForm = () => {
 
 
                 <ArrowUpRight
+
                   size={14}
+
                   strokeWidth={2.5}
+
                   className="text-[#a08552]"
+
                 />
 
 
@@ -281,7 +391,6 @@ const TeamJoinForm = () => {
 
 
     </section>
-
 
   );
 
