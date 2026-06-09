@@ -18,6 +18,42 @@ const TeamJoinForm = () => {
               className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
             />
           </div>
+          
+          {/* Email Field */}
+          <div className="flex flex-col space-y-2">
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+              Father's Name/Husband's Name
+            </label>
+            <input
+              type="text"
+              placeholder="abc"
+              className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
+            />
+          </div>
+          
+          {/* Email Field */}
+          <div className="flex flex-col space-y-2">
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+              Date of Birth
+            </label>
+            <input
+              type="text"
+              placeholder="abc"
+              className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
+            />
+          </div>
+          
+          {/* Email Field */}
+          <div className="flex flex-col space-y-2">
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+              Gender
+            </label>
+            <input
+              type="text"
+              placeholder="male/female/other"
+              className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
+            />
+          </div>
 
           {/* Phone Field */}
           <div className="flex flex-col space-y-2">
@@ -30,6 +66,19 @@ const TeamJoinForm = () => {
               className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
             />
           </div>
+          
+          {/* Email Field */}
+          <div className="flex flex-col space-y-2">
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+              Resedential Address
+            </label>
+            <input
+              type="text"
+              placeholder="abc"
+              className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
+            />
+          </div>
+
 
           {/* Email Field */}
           <div className="flex flex-col space-y-2">
@@ -47,6 +96,30 @@ const TeamJoinForm = () => {
           <div className="flex flex-col space-y-2">
             <label className="text-white font-bold uppercase tracking-wider text-[15px]">
               ENROLLMENT NUMBER
+            </label>
+            <input
+              type="text"
+              placeholder="abc"
+              className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
+            />
+          </div>
+          
+          {/* Email Field */}
+          <div className="flex flex-col space-y-2">
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+              State Bar Council 
+            </label>
+            <input
+              type="text"
+              placeholder="abc"
+              className="w-full border border-gray-200 px-4 py-3 bg-none text-gray-300 focus:outline-none focus:border-[#a08552]   text-sm font-light shadow-sm transition-colors"
+            />
+          </div>
+          
+          {/* Email Field */}
+          <div className="flex flex-col space-y-2">
+            <label className="text-white font-bold uppercase tracking-wider text-[15px]">
+              Educational Qualification
             </label>
             <input
               type="text"

@@ -36,7 +36,7 @@ const Header = () => {
             <div className="flex items-center space-x-2 mt-0.5">
               <span className="w-4 md:w-6 h-px bg-gray-400"></span>
               <span className="text-xs md:text-sm text-gray-400 font-medium tracking-widest">
-                A Law Firm
+                 Law Firm
               </span>
               <span className="w-4 md:w-6 h-px bg-gray-400"></span>
             </div>

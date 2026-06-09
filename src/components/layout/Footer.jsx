@@ -125,7 +125,7 @@ export default function Footer() {
           {/* Column 3 - about */}
           <div className="lg:ml-[-5%] xl:ml-[-10%]">
             <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
-              About
+              Practice
             </h3>
             <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
               <li>
