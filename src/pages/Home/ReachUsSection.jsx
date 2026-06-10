@@ -7,18 +7,20 @@ const ReachUsSection = () => {
     return (
         <section
             className="
-            relative 
-            w-full 
-            bg-[#303030]
-            py-10
-            sm:py-12
-            md:py-16
-            px-5
-            sm:px-8
-            md:px-12
-            xl:px-24
-            "
-            aria-labelledby="reach-us-heading"
+     relative
+    w-full
+    bg-[#303030]
+    pt-20
+    sm:pt-24
+    md:pt-28
+    pb-20
+    sm:pb-24
+    md:pb-28
+    px-5
+    sm:px-8
+    md:px-12
+    xl:px-24
+  "
         >
 
 
@@ -26,13 +28,14 @@ const ReachUsSection = () => {
 
             <header
                 className="
-                flex 
-                flex-col 
-                items-center 
-                mb-10
-                sm:mb-12
-                md:mb-16
-                "
+    flex
+    flex-col
+    items-center
+    mb-16
+    sm:mb-20
+    md:mb-24
+    "
+
             >
 
 
@@ -42,21 +45,17 @@ const ReachUsSection = () => {
                     {/* Responsive Image */}
 
                     <img
-                        src="/WhatsApp Image 2026-06-08 at 16.26.25.jpeg"
-                        alt="Reach Us Banner"
-                        className="
-                        w-40
-                        h-40
-                        sm:w-52
-                        sm:h-52
-                        md:w-64
-                        md:h-64
-                        lg:w-72
-                        lg:h-72
-                        object-contain
-                        mb-4
-                        mx-auto
-                        "
+                         src="/WhatsApp Image 2026-06-08 at 16.26.25.jpeg"
+  alt="Reach Us Banner"
+  className="
+    w-[70vw]
+    max-w-[900px]
+    h-auto
+    object-contain
+    mx-auto
+    mb-12
+    md:mb-16
+  "
                     />
 
 
