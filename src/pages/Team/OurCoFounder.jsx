@@ -9,117 +9,170 @@ import CoFounder5 from "../../assets/M K Bose.jpeg";
 import CoFounder6 from "../../assets/Cofounder2.jpeg";
 
 
-// Mock data
 const partnersData = [
-  { id: 1, name: "D.C. Roy", imageSrc: CoFounder2 },
-  { id: 2, name: "J.U. Khadim", imageSrc: CoFounder3 },
-  { id: 3, name: "Mrinal Kanti Bose", imageSrc: CoFounder6 },
-  { id: 4, name: "Kuntal Ghosh", imageSrc: CoFounderPhoto },
-  { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
-  { id: 6, name: "M K Bose", imageSrc: CoFounder5 },
+    { id: 1, name: "D.C. Roy", imageSrc: CoFounder2 },
+    { id: 2, name: "J.U. Khadim", imageSrc: CoFounder3 },
+    { id: 3, name: "Mrinal Kanti Bose", imageSrc: CoFounder6 },
+    { id: 4, name: "Kuntal Ghosh", imageSrc: CoFounderPhoto },
+    { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
+    { id: 6, name: "M K Bose", imageSrc: CoFounder5 },
 ];
 
 
 export default function CoFoundersPartnersSection() {
 
-  return (
+    return (
 
-    <section
-      className="bg-[#303030] py-0 px-4 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-center w-full overflow-hidden"
-      aria-labelledby="cofounders-partners-heading"
-    >
-
-
-      {/* Header */}
-
-      <div className="text-center mb-16 md:mb-10 flex flex-col items-center">
-
-
-        <h2
-          id="cofounders-partners-heading"
-          className="text-3xl md:text-[40px] font-extrabold tracking-wide text-[#e0e0e0] mb-2 uppercase"
+        <section
+            className="bg-[#303030] py-16 px-4 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-center w-full"
+            aria-labelledby="cofounders-partners-heading"
         >
-          Co-founders & Partners
-        </h2>
 
 
-        {/* Gold underline */}
+            {/* Header */}
 
-        <div className="w-24 h-1 bg-[#C4A661]"></div>
-
-
-      </div>
+            <div className="text-center mb-12 flex flex-col items-center">
 
 
-
-      {/* Partners - Single Line */}
-
-      <div className="w-full max-w-[1400px] mx-auto flex flex-nowrap justify-center gap-4 sm:gap-6 md:gap-8 overflow-hidden">
-
-
-        {partnersData.map((person) => (
-
-
-          <article
-
-            key={person.id}
-
-            className="flex flex-col items-center w-[160px] sm:w-[180px] md:w-[200px] flex-shrink-0 cursor-pointer"
-
-          >
+                <h2
+                    id="cofounders-partners-heading"
+                    className="text-3xl md:text-[40px] font-extrabold tracking-wide text-[#e0e0e0] mb-2 uppercase"
+                >
+                    Co-founders & Partners
+                </h2>
 
 
-            {/* Grey Image Box */}
-
-            <div className="w-full aspect-[4/5] bg-[#4a4a4a] overflow-hidden mb-0 border border-[#666]">
-
-
-              <img
-
-                src={person.imageSrc}
-
-                alt={person.name}
-
-                className="w-full h-full object-cover object-top filter brightness-[0.95] contrast-[1.05]"
-
-                loading="lazy"
-
-              />
+                <div className="w-24 h-1 bg-[#C4A661]"></div>
 
 
             </div>
 
 
 
-            {/* Name */}
 
-            <div className="w-full border-t border-[#C4A661]/50 pt-3 text-center px-1">
+            {/* Responsive Grid */}
+
+            <div
+                className="
+                w-full 
+                max-w-[1400px] 
+                mx-auto 
+                grid 
+                grid-cols-1 
+                sm:grid-cols-2 
+                md:grid-cols-3 
+                lg:grid-cols-6 
+                gap-8
+                "
+            >
 
 
-              <h3 className="text-[12px] md:text-[13px] font-serif font-bold text-[#e0e0e0] tracking-[0.15em] uppercase truncate">
+                {partnersData.map((person) => (
 
 
-                {person.name}
+                    <article
+
+                        key={person.id}
+
+                        className="
+                        flex 
+                        flex-col 
+                        items-center 
+                        w-full 
+                        max-w-[220px]
+                        mx-auto
+                        cursor-pointer
+                        "
+
+                    >
 
 
-              </h3>
+
+                        {/* Image */}
+
+                        <div
+                            className="
+                            w-full 
+                            aspect-[4/5] 
+                            bg-[#4a4a4a] 
+                            overflow-hidden 
+                            border 
+                            border-[#666]
+                            "
+                        >
+
+
+                            <img
+
+                                src={person.imageSrc}
+
+                                alt={person.name}
+
+                                className="
+                                w-full 
+                                h-full 
+                                object-cover 
+                                object-top 
+                                filter 
+                                brightness-[0.95] 
+                                contrast-[1.05]
+                                "
+
+                                loading="lazy"
+
+                            />
+
+
+                        </div>
+
+
+
+
+                        {/* Name */}
+
+                        <div
+                            className="
+                            w-full 
+                            border-t 
+                            border-[#C4A661]/50 
+                            pt-3 
+                            text-center
+                            "
+                        >
+
+
+                            <h3
+                                className="
+                                text-[12px]
+                                md:text-[13px]
+                                font-serif
+                                font-bold
+                                text-[#e0e0e0]
+                                tracking-[0.15em]
+                                uppercase
+                                "
+                            >
+
+                                {person.name}
+
+                            </h3>
+
+
+                        </div>
+
+
+
+                    </article>
+
+
+                ))}
 
 
             </div>
 
 
+        </section>
 
-          </article>
-
-
-        ))}
-
-
-      </div>
-
-
-    </section>
-
-  );
+    );
 
 }
