@@ -10,9 +10,9 @@ import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white relative overflow-hidden">
+    <footer className="bg-linear-to-b from-[#303030] to-white relative overflow-hidden">
 
-      <div className="absolute inset-0 bg-white pointer-events-none"></div>
+      <div className="absolute inset-0 bg-none pointer-events-none"></div>
 
 
       <div
@@ -67,7 +67,7 @@ export default function Footer() {
               </div>
 
 
-              <h2 className="text-black text-xl md:text-2xl font-bold">
+              <h2 className="text-white text-xl md:text-2xl font-bold">
                 VEDANTA
               </h2>
 
@@ -78,7 +78,7 @@ export default function Footer() {
 
 
 
-            <h4 className="text-black text-sm mb-4">
+            <h4 className="text-white text-sm mb-4">
               Subscribe to Newsletter
             </h4>
 
@@ -115,8 +115,8 @@ export default function Footer() {
 
               <button
                 className="
-                bg-black
-                text-white
+                bg-white
+                text-black
                 px-5
                 py-2
                 text-xs
@@ -151,8 +151,8 @@ export default function Footer() {
                     key={i}
                     href="#"
                     className="
-                    bg-black
-                    text-white
+                    bg-white
+                    text-black
                     p-2
                     rounded
                     "
@@ -217,7 +217,7 @@ export default function Footer() {
               className="text-center sm:text-left"
             >
 
-              <h3 className="text-black text-lg md:text-xl mb-5">
+              <h3 className="text-gray-300 text-lg md:text-xl mb-5">
                 {section.title}
               </h3>
 
@@ -226,7 +226,7 @@ export default function Footer() {
                 className="
                 space-y-4
                 text-sm
-                text-black
+                text-white
                 font-light
                 "
               >
@@ -288,7 +288,7 @@ export default function Footer() {
             "
             style={{
               backgroundImage:
-              "linear-gradient(to bottom,#d4d4d4,#777,white)"
+              "linear-gradient(to bottom,#303030,#606060,#909090,#C0C0C0)"
             }}
           >
 

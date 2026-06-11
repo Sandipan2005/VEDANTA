@@ -6,11 +6,11 @@ import Signature from "../../assets/FounderSign.png";
 const FounderSection = () => {
     return (
         <section
-            className="relative min-h-screen w-full overflow-hidden py-16 md:pt-24 md:pb-10 px-5 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-start bg-white"
+            className="relative min-h-screen w-full overflow-hidden py-16 md:pt-24 md:pb-10 px-5 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-start bg-linear-to-b from-white to-[#303030]"
         >
 
             {/* Background */}
-            <div className="absolute inset-0 bg-white pointer-events-none"></div>
+            <div className="absolute inset-0 bg-none pointer-events-none"></div>
 
 
             {/* --- HERO / TOP SECTION --- */}
@@ -18,7 +18,7 @@ const FounderSection = () => {
 
                 {/* Logo */}
                 <div
-                    className="flex items-center justify-center w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 bg-white rounded-full mb-6"
+                    className="flex items-center justify-center w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 bg-none rounded-full mb-6"
                 >
                     <img
                         src="/favicon.svg"
@@ -139,7 +139,7 @@ const FounderSection = () => {
 
                     {/* Founder Text */}
                     <div
-                        className="space-y-4 md:space-y-5 text-black text-[13px] sm:text-[14px] md:text-[20px] leading-[1.4] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-8 text-justify lg:text-center"
+                        className="space-y-4 md:space-y-5 text-gray-300 text-[13px] sm:text-[14px] md:text-[20px] leading-[1.4] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-8 text-justify lg:text-center"
                     >
 
                         <p>
