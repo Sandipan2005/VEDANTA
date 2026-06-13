@@ -13,10 +13,10 @@ import CoFounder5 from "../../assets/M K Bose.jpeg";
 const teamMembers = [
   { id: 1, name: "D.C. Roy", imageSrc: CoFounder2 },
   { id: 2, name: "J.U. Khadim", imageSrc: CoFounder3 },
-  { id: 3, name: "Mrinal Kanti Bose", imageSrc: cofounder1 },
+  { id: 3, name: "SAIBAL TRIVEDI", imageSrc: cofounder1 },
   { id: 4, name: "Kuntal Ghosh", imageSrc: CoFounderPhoto },
   { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
-  { id: 6, name: "M K Bose", imageSrc: CoFounder5 },
+  { id: 6, name: "Mrinal Kanti Bose", imageSrc: CoFounder5 },
 ];
 
 const OurTeamSection = () => {
