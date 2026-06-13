@@ -182,7 +182,7 @@ export default function Footer() {
 
           {[
             {
-              title:"Legal",
+              title:null,
               items:[
                 "Consumer Protection Law",
                 "Constitutional Law & Public Interest Litigation (PIL)",
@@ -192,7 +192,7 @@ export default function Footer() {
             },
 
             {
-              title:"Practice",
+              title:null,
               items:[
                 "Civil Litigation & Dispute Resolution",
                 "Criminal Litigation & Defense",
@@ -201,7 +201,7 @@ export default function Footer() {
             },
 
             {
-              title:"Work",
+              title:null,
               items:[
                 "Intellectual Property Rights",
                 "Banking, Finance & Recovery",

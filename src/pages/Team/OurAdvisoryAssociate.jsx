@@ -10,6 +10,9 @@ const associateData = [
   { id: 2, name: "Name", imageSrc: null, state: "state" },
   { id: 3, name: "Name", imageSrc: null, state: "state" },
   { id: 4, name: "Name", imageSrc: null, state: "state" },
+    { id: 5, name: "Name", imageSrc: null, state: "state" },
+    { id: 6, name: "Name", imageSrc: null, state: "state" },
+
 ];
 
 
@@ -89,7 +92,15 @@ export default function OurAdvisoryAssociate() {
           />
 
 
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 gap-y-10 md:gap-y-12">
+          <div className="w-full
+                max-w-350
+                mx-auto
+                grid
+                grid-cols-1
+                sm:grid-cols-2
+                md:grid-cols-3
+                lg:grid-cols-6
+                gap-8">
 
             {associateData.map((member) => (
 
