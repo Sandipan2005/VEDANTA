@@ -47,7 +47,7 @@ const FounderSection = () => {
 
             {/* --- FOUNDER SECTION --- */}
             <article
-                className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 pt-10 pl-10 pr-10"
+                className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-25 pt-10 pl-10 pr-10"
             >
 
 

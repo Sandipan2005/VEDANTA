@@ -12,10 +12,10 @@ import CoFounder6 from "../../assets/Cofounder2.jpeg";
 const partnersData = [
     { id: 1, name: "D.C. Roy", imageSrc: CoFounder2 },
     { id: 2, name: "J.U. Khadim", imageSrc: CoFounder3 },
-    { id: 3, name: "Mrinal Kanti Bose", imageSrc: CoFounder6 },
+    { id: 3, name: "SAIBAL TRIVEDI", imageSrc: CoFounder6 },
     { id: 4, name: "Kuntal Ghosh", imageSrc: CoFounderPhoto },
     { id: 5, name: "Sangita Biswas", imageSrc: CoFounder4 },
-    { id: 6, name: "M K Bose", imageSrc: CoFounder5 },
+    { id: 6, name: "Mrinal Kanti Bose", imageSrc: CoFounder5 },
 ];
 
 
@@ -24,7 +24,7 @@ export default function CoFoundersPartnersSection() {
     return (
 
         <section
-            className="bg-[#303030] py-16 px-4 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-center w-full"
+            className="bg-[#303030] pt-16 px-4 sm:px-8 md:px-12 xl:px-20 flex flex-col items-center justify-center w-full"
             aria-labelledby="cofounders-partners-heading"
         >
 
@@ -36,7 +36,7 @@ export default function CoFoundersPartnersSection() {
 
                 <h2
                     id="cofounders-partners-heading"
-                    className="text-3xl md:text-[40px] font-extrabold tracking-wide text-[#e0e0e0] mb-2 uppercase"
+                    className="text-3xl md:text-[48px] font-extrabold tracking-wide text-[#e0e0e0] mb-2 uppercase"
                 >
                     Co-founders & Partners
                 </h2>
@@ -55,7 +55,7 @@ export default function CoFoundersPartnersSection() {
             <div
                 className="
                 w-full 
-                max-w-[1400px] 
+                max-w-350
                 mx-auto 
                 grid 
                 grid-cols-1 

@@ -117,25 +117,27 @@ export default function ContactForm() {
                                     West Bengal
                                 </h3>
                             </div>
-                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
-                                 1. 68/5, C Balllygunge Place.<br/>
-                                    Kolkata, Pin 700019,<br/>
-                                    West Bengal, India<br/>
-                                 2. 120, Rashtraguru Avenue,<br/>
-                                    Clive House, Dumdum - Nagerbazar,<br/>
-                                    Kolkata - 700028,<br/>
-                                    West Bengal, India                            </p>
+                            <div className="text-[#e0e0e0] leading-[1.8] text-[16px] font-normal">
+                                1. 68/5, C Balllygunge Place.<br/>
+                                Kolkata, Pin 700019,<br/>
+                                West Bengal, India<br/>
+                                <div className="my-4 border-t border-gray-500/30 w-35"></div>
+                                2. 120, Rashtraguru Avenue,<br/>
+                                Clive House, Dumdum - Nagerbazar,<br/>
+                                Kolkata - 700028,<br/>
+                                West Bengal, India
+                            </div>
                         </div>
 
                         {/* Tripura */}
-                        <div className="flex flex-col items-start px-2 pt-8 border-t border-gray-500/30">
+                        <div className="flex flex-col items-start px-2 pt-2 border-t border-gray-500/30">
                             <div className="flex items-center gap-3 mb-1">
                                 <div className="w-[7px] h-[7px] min-w-[7px] rounded-full bg-[#A68A56]"></div>
                                 <h3 className="text-[25px] font-serif font-medium text-[#A68A56] tracking-wide">
                                     Tripura
                                 </h3>
                             </div>
-                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
+                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-normal">
                                 4, Tapo Bibha,<br/>
                                 Ramnagar- 8<br/>
                                 Agartala 799002,<br/>
@@ -144,14 +146,14 @@ export default function ContactForm() {
                         </div>
 
                         {/* Guwahati */}
-                        <div className="flex flex-col items-start px-2 pt-8 border-t border-gray-500/30">
+                        <div className="flex flex-col items-start px-2 pt-2 border-t border-gray-500/30">
                             <div className="flex items-center gap-3 mb-1">
                                 <div className="w-[7px] h-[7px] min-w-[7px] rounded-full bg-[#A68A56]"></div>
                                 <h3 className="text-[25px] font-serif font-medium text-[#A68A56] tracking-wide">
                                     Assam
                                 </h3>
                             </div>
-                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
+                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-normal">
                                 199 hajo nalbari road,<br/>
                                 khaopanikuchi, Hajo Kamrup,<br/>
                                 Guwahati 781001,<br/>
@@ -160,14 +162,14 @@ export default function ContactForm() {
                         </div>
 
                         {/* Bangalore */}
-                        <div className="flex flex-col items-start px-2 pt-8 border-t border-gray-500/30">
+                        <div className="flex flex-col items-start px-2 pt-2 border-t border-gray-500/30">
                             <div className="flex items-center gap-3 mb-1">
                                 <div className="w-[7px] h-[7px] min-w-[7px] rounded-full bg-[#A68A56]"></div>
                                 <h3 className="text-[25px] font-serif font-medium text-[#A68A56] tracking-wide">
                                     Bangalore
                                 </h3>
                             </div>
-                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-light">
+                            <p className="text-[#e0e0e0] leading-[1.8] text-[16px] font-normal">
                                 1335,10th Cross,<br/>
                                 Judicial Layout, GKVK Post,<br/>
                                 Bangalore 560065,<br/>

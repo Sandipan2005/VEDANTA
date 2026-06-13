@@ -14,7 +14,7 @@ const Team = () => {
       <OurFounders />
       <OurCoFounder />
       <OurAdvisoryAssociate />
-      <TeamJoinForm />
+      {/*<TeamJoinForm />*/}
       <Footer />
     </div>
   );

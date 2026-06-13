@@ -22,10 +22,10 @@ const SectionHeader = ({ prefix, highlight }) => (
         {prefix}
       </span>
 
-      <span className="font-bold text-[#e0e0e0] uppercase relative pb-1">
+      <span className="font-bold text-[#e0e0e0] uppercase relative pb-0">
         {highlight}
 
-        <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-[3px] bg-[#C4A661]"></span>
+        <span className="absolute bottom-0 -left-3 -translate-x-1/2 w-16 h-[3px] bg-[#C4A661] -mb-3"></span>
 
       </span>
     </h2>
@@ -37,7 +37,7 @@ const TeamMemberCard = ({ name, imageSrc, state }) => (
   <article className="flex flex-col items-center w-full max-w-[160px] sm:max-w-[180px] md:max-w-[200px] group cursor-pointer">
 
     {/* Grey Image Box */}
-    <div className="w-full aspect-[4/5] bg-[#4a4a4a] overflow-hidden mb-4 border border-[#666]">
+    <div className="w-46 aspect-4.5/5 bg-[#4a4a4a] overflow-hidden mb-4 border border-[#666]">
 
       {imageSrc && (
         <img

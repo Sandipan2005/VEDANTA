@@ -3,10 +3,9 @@ import React from "react";
 import { ArrowUpRight, Upload } from "lucide-react";
 
 const ReachUsSection = () => {
-
-    return (
-        <section
-            className="
+  return (
+    <section
+      className="
      relative
     w-full
     bg-[#303030]
@@ -21,33 +20,36 @@ const ReachUsSection = () => {
     md:px-12
     xl:px-24
   "
-        >
+    >
+      {/* Header */}
 
-
-            {/* Header */}
-
-            <header
-                className="
+      <header
+        className="
     flex
     flex-col
     items-center
     mb-16
-    sm:mb-20
-    md:mb-24
+    sm:mb-15
+    md:mb-15
     "
+      >
 
-            >
+          <h2
+              id="about-heading"
+              className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-wide uppercase text-[#e0e0e0]"
+          >
+              our process
+          </h2>
+          <div className="w-16 h-0.5 md:h-[3px] bg-[#C4A661] mt-3 mb-5"></div>
 
 
-                <div className="relative inline-block text-center">
+        <div className="relative inline-block text-center">
+          {/* Responsive Image */}
 
-
-                    {/* Responsive Image */}
-
-                    <img
-                         src="/WhatsApp Image 2026-06-08 at 16.26.25.jpeg"
-  alt="Reach Us Banner"
-  className="
+          <img
+            src="/WhatsApp Image 2026-06-08 at 16.26.25.png"
+            alt="Reach Us Banner"
+            className="
     w-[70vw]
     max-w-[900px]
     h-auto
@@ -56,13 +58,11 @@ const ReachUsSection = () => {
     mb-12
     md:mb-16
   "
-                    />
+          />
 
-
-
-                    <h2
-                        id="reach-us-heading"
-                        className="
+          <h2
+            id="reach-us-heading"
+            className="
                         text-3xl
                         sm:text-4xl
                         md:text-5xl
@@ -71,13 +71,12 @@ const ReachUsSection = () => {
                         uppercase
                         text-[#e0e0e0]
                         "
-                    >
-                        REACH US
-                    </h2>
+          >
+            REACH US
+          </h2>
 
-
-                    <div
-                        className="
+          <div
+            className="
                         w-24
                         h-1
                         bg-[#a08552]
@@ -86,22 +85,14 @@ const ReachUsSection = () => {
                         left-1/2
                         -translate-x-1/2
                         "
-                    ></div>
+          ></div>
+        </div>
+      </header>
 
+      {/* CONTENT */}
 
-                </div>
-
-            </header>
-
-
-
-
-
-
-            {/* CONTENT */}
-
-            <div
-                className="
+      <div
+        className="
                 max-w-7xl
                 mx-auto
                 flex
@@ -111,31 +102,25 @@ const ReachUsSection = () => {
                 lg:gap-12
                 items-start
                 "
-            >
+      >
+        {/* LEFT */}
 
-
-
-
-                {/* LEFT */}
-
-                <div
-                    className="
+        <div
+          className="
                     w-full
                     lg:w-5/12
                     "
-                >
-
-                    <div
-                        className="
+        >
+          <div
+            className="
                         rounded-[30px]
                         p-5
                         sm:p-8
                         md:p-12
                         "
-                    >
-
-                        <div
-                            className="
+          >
+            <div
+              className="
                             space-y-5
                             text-[#e0e0e0]
                             text-[14px]
@@ -146,132 +131,78 @@ const ReachUsSection = () => {
                             font-light
                             text-justify
                             "
-                        >
+            >
+              <p>
+                Thank you for reaching out to Vedanta Legal Associates. Please
+                fill the form below with your full details and a clear
+                description of your query. This will help us understand your
+                requirements properly. Our team will review your submission
+                carefully and get in touch with you at the earliest. We are
+                committed to responding to all genuine enquiries as promptly as
+                possible while upholding the highest standards of
+                professionalism and confidentiality.
+              </p>
+            </div>
+          </div>
+        </div>
 
-                            <p>
+        {/* RIGHT FORM */}
 
-                                Thank you for reaching out to Vedanta Legal Associates.
-
-                                Please fill the form below with your full details and a clear description of your query.
-                                This will help us understand your requirements properly.
-
-                                Our team will review your submission carefully and get in touch with you at the earliest.
-                                We are committed to responding to all genuine enquiries as promptly as possible while
-                                upholding the highest standards of professionalism and confidentiality.
-
-                            </p>
-
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
-
-
-
-
-
-
-                {/* RIGHT FORM */}
-
-
-                <div
-                    className="
+        <div
+          className="
                     w-full
                     lg:w-7/12
                     "
-                >
-
-
-                    <div
-                        className="
+        >
+          <div
+            className="
                         rounded-[30px]
                         p-5
                         sm:p-8
                         "
-                    >
-
-
-                        <form
-                            className="
+          >
+            <form
+              className="
                             flex
                             flex-col
                             gap-4
                             "
-                            encType="multipart/form-data"
-                        >
+              encType="multipart/form-data"
+            >
+              {/* Name + Phone */}
 
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <InputField label="Full Name *" />
 
+                <InputField label="Phone Number *" />
+              </div>
 
+              {/* Whatsapp + Date */}
 
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <InputField label="Whatsapp Number" />
 
-                            {/* Name + Phone */}
+                <InputField label="Date of Incident" />
+              </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <InputField label="Address" />
 
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <InputField label="Jurisdiction / Place of Incident" />
 
-                                <InputField label="Full Name *"/>
+                <InputField label="Type of Incident" />
+              </div>
 
-                                <InputField label="Phone Number *"/>
+              {/* Matter */}
 
+              <div className="flex flex-col">
+                <label className="text-white font-bold text-sm mb-1">
+                  Describe Your Matter *
+                </label>
 
-                            </div>
-
-
-
-
-
-                            {/* Whatsapp + Date */}
-
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-
-
-                                <InputField label="Whatsapp Number"/>
-
-                                <InputField label="Date of Incident"/>
-
-
-                            </div>
-
-
-
-
-
-
-
-                            <InputField label="Address"/>
-
-
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-
-                                <InputField label="Jurisdiction / Place of Incident"/>
-
-                                <InputField label="Type of Incident"/>
-
-
-                            </div>
-
-
-
-
-
-
-                            {/* Matter */}
-
-                            <div className="flex flex-col">
-
-                                <label className="text-white font-bold text-sm mb-1">
-                                    Describe Your Matter *
-                                </label>
-
-
-                                <textarea
-                                    rows="2"
-                                    className="
+                <textarea
+                  rows="2"
+                  className="
                                     w-full
                                     border
                                     rounded-xl
@@ -282,21 +213,13 @@ const ReachUsSection = () => {
                                     outline-none
                                     resize-none
                                     "
-                                />
+                />
+              </div>
 
-                            </div>
+              {/* Upload */}
 
-
-
-
-
-
-
-                            {/* Upload */}
-
-
-                            <div
-                                className="
+              <div
+                className="
                                 flex
                                 flex-col
                                 gap-4
@@ -305,30 +228,18 @@ const ReachUsSection = () => {
                                 border
                                 border-gray-200
                                 "
-                            >
+              >
+                <UploadBox text="Attach ID Proof *" />
 
+                <div className="h-px bg-gray-300"></div>
 
-                                <UploadBox text="Attach ID Proof *"/>
+                <UploadBox text="Attach Relevant Documents" />
+              </div>
 
+              {/* Button */}
 
-                                <div className="h-px bg-gray-300"></div>
-
-
-                                <UploadBox text="Attach Relevant Documents"/>
-
-
-                            </div>
-
-
-
-
-
-
-
-                            {/* Button */}
-
-                            <button
-                                className="
+              <button
+                className="
                                 bg-[#a08552]
                                 text-black
                                 px-8
@@ -346,55 +257,25 @@ const ReachUsSection = () => {
                                 mx-auto
                                 lg:mx-0
                                 "
-                            >
-
-                                Submit Details
-
-                                <ArrowUpRight size={18}/>
-
-
-                            </button>
-
-
-
-                        </form>
-
-
-                    </div>
-
-
-                </div>
-
-
-
-            </div>
-
-
-
-        </section>
-    );
+              >
+                Submit Details
+                <ArrowUpRight size={18} />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
+function InputField({ label }) {
+  return (
+    <div className="flex flex-col">
+      <label className="text-white font-bold text-sm mb-1">{label}</label>
 
-
-
-
-function InputField({label}) {
-
-    return (
-
-        <div className="flex flex-col">
-
-
-            <label className="text-white font-bold text-sm mb-1">
-
-                {label}
-
-            </label>
-
-
-            <input
-                className="
+      <input
+        className="
                 w-full
                 bg-transparent
                 border-b-2
@@ -403,25 +284,15 @@ function InputField({label}) {
                 py-1
                 text-white
                 "
-            />
-
-
-        </div>
-
-    );
-
+      />
+    </div>
+  );
 }
 
-
-
-
-
-function UploadBox({text}) {
-
-    return (
-
-        <label
-            className="
+function UploadBox({ text }) {
+  return (
+    <label
+      className="
             text-white
             font-bold
             text-sm
@@ -430,26 +301,14 @@ function UploadBox({text}) {
             gap-2
             cursor-pointer
             "
-        >
+    >
+      <Upload size={16} className="text-[#a08552]" />
 
-            <Upload
-                size={16}
-                className="text-[#a08552]"
-            />
+      {text}
 
-
-            {text}
-
-
-            <input type="file" className="hidden"/>
-
-
-        </label>
-
-    );
-
+      <input type="file" className="hidden" />
+    </label>
+  );
 }
-
-
 
 export default ReachUsSection;

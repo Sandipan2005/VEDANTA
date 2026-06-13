@@ -141,7 +141,7 @@ const AboutSection = () => {
         <header className="mb-8 md:mb-10 text-center flex flex-col items-center ">
           <h2
               id="about-heading"
-              className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase text-[#e0e0e0]"
+              className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-wide uppercase text-[#e0e0e0]"
           >
             ABOUT US
           </h2>

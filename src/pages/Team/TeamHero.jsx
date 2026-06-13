@@ -17,7 +17,7 @@ const PracticeAreasHero = () => {
           alt="Practice Areas Mobile"
           className="
             block
-            md:hidden
+            lg:hidden
             w-full
             h-auto
             object-contain
@@ -30,7 +30,7 @@ const PracticeAreasHero = () => {
           alt="Practice Areas Desktop"
           className="
             hidden
-            md:block
+            lg:block
             w-full
             h-auto
             object-contain

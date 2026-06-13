@@ -34,7 +34,7 @@ const OurTeamSection = () => {
           >
             CO-FOUNDER'S &{" "}
             <span className="text-[#e0e0e0] font-normal">
-              MANAGING PARTNER'S
+              PARTNER'S
             </span>
           </h2>
           <div className="w-24 h-1 bg-[#a08552] absolute -bottom-4 left-1/2 -translate-x-1/2"></div>

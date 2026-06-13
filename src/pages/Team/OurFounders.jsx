@@ -34,7 +34,7 @@ const SocialIcon = ({ children }) => (
 
 const FounderCard = ({ name, role, imageSrc }) => (
   <div className="bg-none flex flex-col items-center w-full max-w-125  mx-auto">
-    <div className="w-full h-100 bg-gray-100 overflow-hidden">
+    <div className="w-100 h-100 bg-gray-100 overflow-hidden">
       <img
         src={imageSrc}
         alt={name}
@@ -45,7 +45,7 @@ const FounderCard = ({ name, role, imageSrc }) => (
       <h3 className="text-2xl   font-bold text-white tracking-wide mb-0">
         {name}
       </h3>
-      <p className="text-gray-100 font-light mb-5 tracking-wide">{role}</p>
+      <p className="text-gray-100 font-light mb-0 tracking-wide">{role}</p>
 
       {/* Social Links */}
 
@@ -59,18 +59,18 @@ export default function FoundersSection() {
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         {/* Header Section */}
         <div className="text-center mb-10 flex flex-col items-center">
-          <h2 className="text-3xl md:text-[32px]   tracking-widest flex items-center gap-3">
+          <h2 className="text-3xl md:text-[48px]   tracking-widest flex items-center gap-3">
             <span className="font-bold text-[#e0e0e0] uppercase">Our</span>
             <span className="font-bold text-[#e0e0e0] uppercase relative">
                Founder
               {/* Gold Underline positioned under 'Founders' */}
-              <span className="absolute -bottom-4 left-1/2 -translate-x-3/2 w-12 h-0.5 bg-[#A68A56]"></span>
+              <span className="absolute -bottom-4 left-1/2 -translate-x-3/2 w-15 h-1 bg-[#A68A56]"></span>
             </span>
           </h2>
         </div>
 
         {/* Cards Grid/Layout */}
-        <div className="w-full flex flex-col items-center gap-12">
+        <div className="w-full flex flex-col items-center gap-0">
           {/* Top Row (Single Card) */}
           <div className="w-full flex justify-center">
             {foundersData

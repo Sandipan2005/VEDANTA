@@ -35,11 +35,11 @@ const SocialCommitmentSection = () => {
             <header className="mb-8 md:mb-10 text-center flex flex-col items-center">
                 <h2
                     id="social-commitment-heading"
-                    className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide text-[#e0e0e0] mb-2"
+                    className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-wide text-[#e0e0e0] mb-2"
                 >
                     “Our Social Commitment”
                 </h2>
-                <h3 className="text-xl md:text-2xl font-bold text-[#e0e0e0] tracking-wide">
+                <h3 className="text-xl md:text-3xl font-bold text-[#e0e0e0] tracking-wide">
                     IVS (Since 1990)
                 </h3>
                 <div className="w-16 h-0.5 md:h-[3px] bg-[#C4A661] mt-6"></div>
